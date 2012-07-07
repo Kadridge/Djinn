@@ -235,7 +235,7 @@
     <?php echo $this->Session->flash(); ?>
     <?php echo $this->fetch('content'); ?>
     
-</div><!--/lalalla.fluid-container-->
+</div><!--/.fluid-container-->
 <footer>
   <div class="container-fluid">
     <p>&copy; Djinn 2012</p>
