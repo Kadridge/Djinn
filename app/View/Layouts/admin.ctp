@@ -241,10 +241,12 @@
     <p>&copy; Djinn 2012</p>
   </div>
 </footer>
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+</body>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
 <?php echo $this->Html->script('bootstrap-dropdown'); ?>
 <?php echo $this->Html->script('masonry'); ?>
 <?php echo $this->Html->script('main'); ?>
 <?php echo $this->element('sql_dump'); ?>
-</body>
+    <?php echo $this->Html->script('admin'); ?>
+    <?php echo $scripts_for_layout; ?>
 </html>

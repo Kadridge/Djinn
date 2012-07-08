@@ -97,6 +97,11 @@
  *	));
  */
 Cache::config('default', array('engine' => 'File'));
+Configure::write('Media.formats.', array(
+    's'=> '100x100',
+    'm'=> '400x300',
+    'l'=>'960x600'
+));
 
 /**
  * The settings below can be used to set additional paths to models, views and controllers.
