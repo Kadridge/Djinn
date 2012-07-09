@@ -68,7 +68,7 @@ class MediasController extends AppController
                         $this->render('tinymce');
                         return;
                     }
-                if($id)
+                if(is_numeric($id))
                     {
                         $this->Media->id = $id;
                         $media = current($this->Media->read());
@@ -87,16 +87,6 @@ class MediasController extends AppController
  
         function admin_delete($id)
             {
-                $this->Media->id = $id;
-                $file = $this->Media->field('url');
-                unlink(IMAGES.DS.$file);
-                $f = explode('.', $file);
-                $ext = '.'.end($f);
-                $file = implode('.',array_slice($f,0,-1));
-                foreach(glob(IMAGES.DS.$file.'_*.jpg') as $v)
-                    {
-                        unlink($v);
-                    }
                 $this->Media->delete($id);
                 $this->Session->setFlash("L'image a bien été supprimée","notif");
                 $this->redirect($this->referer());

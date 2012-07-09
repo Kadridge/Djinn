@@ -1,6 +1,13 @@
 <?php
 class Post extends AppModel{
     
+    public $hasMany = array(
+        'Media' => array(
+            'dependent'=> true
+        ));
+        
+    public $recursive = -1;
+    
     public $validate = array(
       'slug' => array(
           'rule'        => '/^[a-z0-9\-]+$/',
@@ -13,12 +20,26 @@ class Post extends AppModel{
       )  
     );
 
+    public function getDraft($type){
+        $post = $this->find('first', array(
+            'conditions'=> array('online' => -1, 'type'=> $type)
+        ));
+        if(empty($post)){
+            $this->save(array(
+                'type'=> $type,
+                'online'=> -1
+            ), false);
+            $post = $this->read();
+        }
+        $post['Post']['online'] = 0;
+        return $post;
+    }
 
     public function afterFind($data) {
         foreach ($data as $k=>$d){
-            if(isset($d['Post']['slug']) && isset($d['Post']['id'])){
+            if(isset($d['Post']['slug']) && isset($d['Post']['id']) && isset($d['Post']['type'])){
                 $d['Post']['link'] = array(
-                        'controller'=> 'pages',
+                        'controller'=> Inflector::pluralize($d['Post']['type']),
                         'action'    => 'show',
                         'id'        => $d['Post']['id'],
                         'slug'      => $d['Post']['slug']

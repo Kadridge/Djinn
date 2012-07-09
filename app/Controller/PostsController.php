@@ -1,21 +1,25 @@
 <?php
 
-class PagesController extends AppController {
+class PostsController extends AppController {
 
-    public $uses = array('Post');
-    
+
     function menu(){
         $pages = $this->Post->find('all',array(
-            'conditions' => array('type' => 'page', 'online' => 1),
-            'fields'     => array('id', 'slug', 'name', 'type')
+            'conditions' => array('type' => 'post', 'online' => 1),
+            'fields'     => array('id', 'slug', 'name')
         ));
         
             return $pages;
         }
         
+        function index(){
+            $d['posts'] = $this->Paginate('Post', array('type'=>'post', 'online'=>1));
+            $this->set($d);
+        }
+        
     function show($id = null, $slug = null){
         $page = $this->Post->find('first',array(
-            'conditions' => array('id' => $id, 'type'=>'page')
+            'conditions' => array('id' => $id, 'type'=>'post')
         ));
         if(!$id)
             throw new NotFoundException('Aucune page ne correspond à cet ID');
@@ -28,7 +32,7 @@ class PagesController extends AppController {
     }
     
     function admin_index(){
-        $d['pages'] = $this->Paginate('Post', array('type'=>'page', 'online >= 0'));   
+        $d['posts'] = $this->Paginate('Post', array('type'=>'post', 'online >= 0'));   
         $this->set($d);
     }
     
@@ -43,13 +47,16 @@ class PagesController extends AppController {
             $this->Post->id = $id;
             $this->request->data = $this->Post->read();
         }else{
-            $this->request->data = $this->Post->getDraft('page');
+            $this->request->data = $this->Post->getDraft('post');
         }
+        $this->loadModel('Category');
+        $d['categories'] = $this->Category->find('list');
+        $this->set($d);
 
     }
     
     function admin_delete($id){
-        $this->Session->setFlash('La page a bien été supprimée', 'notif');
+        $this->Session->setFlash('L\'article a bien été supprimée', 'notif');
         $this->Post->delete($id);
         $this->redirect($this->referer());
     }

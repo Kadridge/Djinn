@@ -22,6 +22,8 @@
 
 class AppController extends Controller {
     
+    public $helpers = array('Text', 'Form', 'Html', 'Session');
+    
     function beforeFilter() {
         if(isset($this->request->params['prefix']) && $this->request->params['prefix'] == 'admin'
                 )

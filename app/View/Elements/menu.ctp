@@ -15,6 +15,7 @@
             <?php foreach($pages as $k=>$v): $v = current($v); ?>
             <li><?php echo $this->Html->link($v['name'], $v['link']); ?></li>
             <?php endforeach; ?>
+            <li><?php echo $this->Html->link('News', array('controller'=>'posts','action'=>'index')); ?></li>
         </ul>
         <ul class="nav pull-right">
           <li id="login"><a href="#contact">Se connecter</a></li>

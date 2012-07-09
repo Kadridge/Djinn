@@ -28,6 +28,8 @@
 	Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
 	Router::connect('/page/:slug-:id',array('controller'=>'pages', 'action'=>'show'),array('pass'
             => array('id', 'slug'), 'id'=>'[0-9]+','slug' =>'[a-z0-9\-]+'));
+	Router::connect('/post/:slug-:id',array('controller'=>'posts', 'action'=>'show'),array('pass'
+            => array('id', 'slug'), 'id'=>'[0-9]+','slug' =>'[a-z0-9\-]+'));
 /**
  * Load all plugin routes.  See the CakePlugin documentation on 
  * how to customize the loading of plugin routes.

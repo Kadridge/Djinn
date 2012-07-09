@@ -222,6 +222,8 @@
         <div class="nav-collapse">
         <ul class="nav">
             <li><?php echo $this->Html->link("Gestion des pages", array('action'=>'index', 'controller'=>'pages')); ?></li>
+            <li><?php echo $this->Html->link("Gestion des articles", array('action'=>'index', 'controller'=>'posts')); ?></li>
+            <li><?php echo $this->Html->link("Gestion des catégories", array('action'=>'index', 'controller'=>'categories')); ?></li>
             <li><?php echo $this->Html->link("Retourner au site", '/'); ?></li>
         </ul>
       </div><!--/.nav-collapse -->
