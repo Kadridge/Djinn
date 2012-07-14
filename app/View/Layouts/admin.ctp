@@ -224,7 +224,9 @@
             <li><?php echo $this->Html->link("Gestion des pages", array('action'=>'index', 'controller'=>'pages')); ?></li>
             <li><?php echo $this->Html->link("Gestion des articles", array('action'=>'index', 'controller'=>'posts')); ?></li>
             <li><?php echo $this->Html->link("Gestion des catégories", array('action'=>'index', 'controller'=>'categories')); ?></li>
+            <li><?php echo $this->Html->link("Gestion des utilisateurs", array('action'=>'index', 'controller'=>'users')); ?></li>
             <li><?php echo $this->Html->link("Retourner au site", '/'); ?></li>
+            <li><?php echo $this->Html->link("Se déconnecter", array('controller'=>'users', 'action'=>'logout', 'admin'=>false)); ?></li>
         </ul>
       </div><!--/.nav-collapse -->
 

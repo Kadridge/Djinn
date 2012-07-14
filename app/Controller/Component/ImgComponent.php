@@ -35,6 +35,7 @@ class ImgComponent extends Component {
             if(substr($img,-4)==".jpg" || substr($img,-4)==".JPG"){$image = imagecreatefromjpeg($img); }
             if(substr($img,-4)==".png" || substr($img,-4)==".PNG"){$image = imagecreatefrompng($img); }
             if(substr($img,-4)==".gif" || substr($img,-4)==".GIF"){$image = imagecreatefromgif($img); }
+            if(substr($img,-4)==".jpeg" || substr($img,-4)==".JPEG"){$image = imagecreatefromgif($img); }
  
             imagecopyresampled($miniature,$image,-$decalX,-$decalY,0,0,$dimX,$dimY,$dimension[0],$dimension[1]);
             imagejpeg($miniature,$dest,self::$quality);
