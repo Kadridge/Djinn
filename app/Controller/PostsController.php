@@ -2,6 +2,8 @@
 
 class PostsController extends AppController {
 
+    public $helpers = array('Date');
+    public $components = array('RequestHandler');
 
     function menu(){
         $pages = $this->Post->find('all',array(
@@ -12,23 +14,47 @@ class PostsController extends AppController {
             return $pages;
         }
         
-        function index(){
-            $d['posts'] = $this->Paginate('Post', array('type'=>'post', 'online'=>1));
+        function category($category){
+            $cat = $this->Post->Category->find('first', array(
+                'conditions' => array(
+                    'slug' => $category
+                )
+            ));
+            if(empty($cat))
+                throw new NotFoundException('Aucune catégorie ne correspond à cet ID');
+            $d['posts'] = $this->Paginate('Post', array('type'=>'post', 'online'=>1, 'category_id'=> $cat['Category']['id']));
+            $this->set($d);
+            $this->render('index');
+        }
+        
+    function index(){
+            $d['posts'] = $this->Paginate('Post', array('type'=>'post', 'online'=>1, 'created <= NOW()'));
             $this->set($d);
         }
         
     function show($id = null, $slug = null){
-        $page = $this->Post->find('first',array(
-            'conditions' => array('id' => $id, 'type'=>'post')
+        $post = $this->Post->find('first',array(
+            'conditions' => array('Post.id' => $id),
+            'recursive'  => 0
         ));
         if(!$id)
             throw new NotFoundException('Aucune page ne correspond à cet ID');
-        if(empty($page))
+        if(empty($post))
             throw new NotFoundException('Aucune page ne correspond à cet ID');
-        if($slug != $page['Post']['slug'])
-            $this->redirect ($page['Post']['link'],301);
-        $d['page'] = current($page);
+        if($slug != $post['Post']['slug'])
+            $this->redirect ($post['Post']['link'],301);
+        $d['post'] = $post;
         $this->set($d);
+    }
+    
+    function feed(){
+        if($this->RequestHandler->isRss() ){
+        $d['posts'] = $this->Post->find('all', array(
+            'limit' => 20,
+            'conditions' => array('type'=> 'post')
+            ));
+        return $this->set($d);
+        }
     }
     
     function admin_index(){
@@ -49,8 +75,7 @@ class PostsController extends AppController {
         }else{
             $this->request->data = $this->Post->getDraft('post');
         }
-        $this->loadModel('Category');
-        $d['categories'] = $this->Category->find('list');
+        $d['categories'] = $this->Post->Category->find('list');
         $this->set($d);
 
     }

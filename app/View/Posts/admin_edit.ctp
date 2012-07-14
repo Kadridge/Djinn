@@ -9,6 +9,7 @@
     <?php echo $this->Form->input('category_id', array('label'=>'Categorie')); ?>
     <?php echo $this->Form->input('id'); ?>
     <?php echo $this->Form->input('content', array('label'=>'Contenu')); ?>
+    <?php echo $this->Form->input('created', array('label'=>'Date de création', 'dateFormat'=>'DMY', 'timeFormat'=>24)); ?>
     <?php echo $this->Form->input('online', array('label'=>'En ligne ?', 'type'=>'checkbox')); ?>
 
 <?php echo $this->Form->end('Envoyer'); ?>

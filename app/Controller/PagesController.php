@@ -33,7 +33,7 @@ class PagesController extends AppController {
     }
     
     function admin_edit($id = null){
-        if($this->request->is('put') ||$this->request->is('post')){
+        if($this->request->is('put') || $this->request->is('post')){
             if($this->Post->save($this->request->data)){
                 $this->Session->setFlash("Le contenu a bien été modifié", "notif");
                 $this->redirect(array('action'=>'index'));

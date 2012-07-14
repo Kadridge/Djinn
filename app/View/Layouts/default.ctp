@@ -23,7 +23,8 @@
 	<title>
 		<?php echo $title_for_layout; ?>
 	</title>
-        <link rel="stylesheet/less" href="<?php echo $this->Html->url('/css/bootstrap.less'); ?>">
+        <link rel="alternate" type="application/rss+xml" title="Djinn" href="<?php echo $this->Html->url(array('controller'=>'posts','action'=>'feed','ext'=>'rss')); ?>"></link>
+        <link rel="stylesheet/less" href="<?php echo $this->Html->url('/css/bootstrap.less'); ?>"></link>
         <?php echo $this->Html->script('less'); ?>
         <style>
         body{margin:0;}

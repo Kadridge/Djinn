@@ -6,6 +6,14 @@ class Post extends AppModel{
             'dependent'=> true
         ));
         
+public $belongsTo = array(
+    'Category' => array(
+        'counterCache'=> array(
+            'post_count'=> array('Post.online'=>1)
+        )
+    )
+);
+
     public $recursive = -1;
     
     public $validate = array(
@@ -20,6 +28,8 @@ class Post extends AppModel{
       )  
     );
 
+    public $order = 'Post.created DESC';
+            
     public function getDraft($type){
         $post = $this->find('first', array(
             'conditions'=> array('online' => -1, 'type'=> $type)

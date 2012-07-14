@@ -2,6 +2,12 @@
 
 class CategoriesController extends AppController{
     
+    function sidebar(){
+        
+        return $this->Category->find('all');
+    }
+
+
     function admin_index(){
         $d['categories'] = $this->Category->find('all');
         $this->set($d);
