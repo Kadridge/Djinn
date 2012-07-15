@@ -29,10 +29,13 @@
         Router::parseExtensions('rss');
 
 	Router::connect('/', array('controller' => 'posts', 'action' => 'index'));
+        
 	Router::connect('/page/:slug-:id',array('controller'=>'pages', 'action'=>'show'),array('pass'
             => array('id', 'slug'), 'id'=>'[0-9]+','slug' =>'[a-z0-9\-]+'));
+        
 	Router::connect('/post/:slug-:id',array('controller'=>'posts', 'action'=>'show'),array('pass'
             => array('id', 'slug'), 'id'=>'[0-9]+','slug' =>'[a-z0-9\-]+'));
+        
 	Router::connect('/categorie/:slug',array('controller'=>'posts', 'action'=>'category'),array('pass'
             => array('slug'), 'slug' =>'[a-z0-9\-]+'));
 /**

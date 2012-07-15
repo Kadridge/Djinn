@@ -18,19 +18,14 @@
             <li><?php echo $this->Html->link('News', array('controller'=>'posts','action'=>'index')); ?></li>
         </ul>
         <ul class="nav pull-right">
-          <li id="login"><a href="#contact">Se connecter</a></li>
+          <?php if(AuthComponent::user('id')): ?>
+          <li id="login"><?php echo $this->Html->link("Se déconnecter", array('action'=>'logout', 'controller'=>'users')); ?></li>
+          <li id="login"><?php echo $this->Html->link("Mon compte", array('action'=>'edit', 'controller'=>'users')); ?></li>
+          <?php else: ?>
+          <li id="login"><?php echo $this->Html->link("Se connecter", array('action'=>'login', 'controller'=>'users')); ?></li>
+          <li id="login"><?php echo $this->Html->link("S'inscrire", array('action'=>'signup', 'controller'=>'users')); ?></li>
+          <?php endif; ?>
         </ul>         
-        <ul class="nav pull-right">
-          <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="sign-up">Nous rejoindre <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Connexion Facebook</a></li>
-              <li><a href="#">Connexion Twitter</a></li>
-              <li class="divider"></li>
-              <li><a href="#">Inscription classique</a></li>
-            </ul>
-          </li>
-        </ul>
         <div class="input-prepend pull-right" id="research">
               <span class="add-on"><i class="icon-search"></i></span><input placeholder="Rechercher" class="span3" id="inputIcon" type="text">
         </div>

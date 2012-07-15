@@ -23,7 +23,14 @@
 class AppController extends Controller {
     
     public $helpers = array('Text', 'Form', 'Html', 'Session', 'Cache');
-    public $components = array('Session', 'Auth');
+    public $components = array('Session', 'Cookie',
+        'Auth'=>array(
+            'authenticate'=> array(
+                'Form'=> array(
+                    'scope'=> array('User.active'=> 1)
+                )
+            )
+        ));
 
 
     function beforeFilter() {
@@ -33,9 +40,10 @@ class AppController extends Controller {
         
         if(!isset($this->request->params['prefix']))
             $this->Auth->allow();
-        if(isset($this->request->params['prefix']) && $this->request->params['prefix'] == 'admin'
-                )
-                    $this->layout = 'admin';
+        if(isset($this->request->params['prefix']) && $this->request->params['prefix'] == 'admin')
+            $this->layout = 'admin';
+        if(isset($this->request->params['prefix']) && $this->request->params['prefix'] == 'user')
+            $this->layout = 'user';
     }
     
     function isAuthorized($user){

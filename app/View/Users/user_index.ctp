@@ -1,0 +1,1 @@
+<h2>Cette vue ne peut être consulté que par des membres</h2>

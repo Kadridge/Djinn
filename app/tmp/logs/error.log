@@ -5256,3 +5256,708 @@
 2012-07-14 19:49:25 Error: [MissingControllerException] Controller class JsController could not be found.
 #0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2012-07-14 21:12:34 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-14 21:12:54 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-14 21:12:58 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-14 21:13:00 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-14 21:13:02 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-14 21:18:03 Error: [MissingActionException] Action UsersController::signup() could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-14 21:18:24 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/Djinn/app/View/Users/signup.ctp" is missing.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-14 21:55:11 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-14 21:55:15 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-14 22:08:50 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-14 22:08:52 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-14 22:08:56 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-14 22:08:59 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-14 23:03:33 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE in [/Applications/MAMP/htdocs/Djinn/app/Controller/UsersController.php, line 39]
+2012-07-14 23:03:33 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 39)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 39, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 39, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-14 23:04:28 Error: Fatal Error (1): Class 'CakeEmail' not found in [/Applications/MAMP/htdocs/Djinn/app/Controller/UsersController.php, line 30]
+2012-07-14 23:04:28 Error: [FatalErrorException] Class 'CakeEmail' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'CakeEmai...', '/Applications/M...', 30)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'CakeEmai...', '/Applications/M...', 30, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'CakeEmai...', '/Applications/M...', 30, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-14 23:48:11 Error: Fatal Error (4): syntax error, unexpected T_ENDIF in [/Applications/MAMP/htdocs/Djinn/app/View/Elements/menu.ctp, line 24]
+2012-07-14 23:48:11 Error: [FatalErrorException] syntax error, unexpected T_ENDIF
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 24, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 24, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-14 23:50:04 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-14 23:52:44 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-14 23:57:05 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-14 23:57:09 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-14 23:57:30 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-15 00:43:52 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE in [/Applications/MAMP/htdocs/Djinn/app/Controller/UsersController.php, line 71]
+2012-07-15 00:43:52 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 71)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 71, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 71, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 01:00:49 Error: Fatal Error (4): syntax error, unexpected $end, expecting T_FUNCTION in [/Applications/MAMP/htdocs/Djinn/app/Controller/UsersController.php, line 130]
+2012-07-15 01:00:49 Error: [FatalErrorException] syntax error, unexpected $end, expecting T_FUNCTION
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 130)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 130, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 130, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 01:09:55 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-15 01:09:57 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-15 01:10:00 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-15 01:10:09 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-15 01:12:23 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-15 01:12:29 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-15 01:12:31 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-15 01:12:42 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-15 01:12:45 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-15 01:12:48 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-15 01:12:57 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-15 01:15:43 Error: Fatal Error (4): syntax error, unexpected ',' in [/Applications/MAMP/htdocs/Djinn/app/Controller/UsersController.php, line 28]
+2012-07-15 01:15:43 Error: [FatalErrorException] syntax error, unexpected ','
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 28, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 28, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 01:15:56 Error: Fatal Error (4): syntax error, unexpected ',' in [/Applications/MAMP/htdocs/Djinn/app/Controller/UsersController.php, line 28]
+2012-07-15 01:15:56 Error: [FatalErrorException] syntax error, unexpected ','
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 28, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 28, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 01:16:00 Error: Fatal Error (4): syntax error, unexpected ',' in [/Applications/MAMP/htdocs/Djinn/app/Controller/UsersController.php, line 28]
+2012-07-15 01:16:00 Error: [FatalErrorException] syntax error, unexpected ','
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 28, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 28, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-15 01:17:24 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-15 01:17:26 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-15 01:17:28 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-15 01:17:33 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-15 01:19:21 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-15 01:19:24 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-15 01:19:26 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-15 01:19:33 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-15 01:19:37 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-15 01:26:02 Error: [MissingActionException] Action PagesController::user_menu() could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/Object.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#3 /Applications/MAMP/htdocs/Djinn/app/View/Elements/menu.ctp(1): Object->requestAction(Array)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(920): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(883): View->_evaluate('/Applications/M...', Array)
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(424): View->_render('/Applications/M...', Array)
+#7 /Applications/MAMP/htdocs/Djinn/app/View/Layouts/default.ctp(214): View->element('menu')
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(920): include('/Applications/M...')
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(883): View->_evaluate('/Applications/M...', Array)
+#10 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(539): View->_render('/Applications/M...')
+#11 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(483): View->renderLayout('', 'default')
+#12 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#13 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#14 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-07-15 01:27:04 Error: [MissingActionException] Action UsersController::user_profil() could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-15 01:27:08 Error: [MissingActionException] Action UsersController::user_profil() could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-15 01:29:20 Error: [MissingActionException] Action PagesController::user_menu() could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/Object.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#3 /Applications/MAMP/htdocs/Djinn/app/View/Elements/menu.ctp(1): Object->requestAction(Array)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(920): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(883): View->_evaluate('/Applications/M...', Array)
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(424): View->_render('/Applications/M...', Array)
+#7 /Applications/MAMP/htdocs/Djinn/app/View/Layouts/default.ctp(214): View->element('menu')
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(920): include('/Applications/M...')
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(883): View->_evaluate('/Applications/M...', Array)
+#10 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(539): View->_render('/Applications/M...')
+#11 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(483): View->renderLayout('', 'default')
+#12 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#13 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#14 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-07-15 01:31:27 Error: [MissingActionException] Action UsersController::user() could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-15 01:31:41 Error: [MissingActionException] Action PagesController::user_menu() could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/Object.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#3 /Applications/MAMP/htdocs/Djinn/app/View/Elements/menu.ctp(1): Object->requestAction(Array)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(920): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(883): View->_evaluate('/Applications/M...', Array)
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(424): View->_render('/Applications/M...', Array)
+#7 /Applications/MAMP/htdocs/Djinn/app/View/Layouts/default.ctp(214): View->element('menu')
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(920): include('/Applications/M...')
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(883): View->_evaluate('/Applications/M...', Array)
+#10 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(539): View->_render('/Applications/M...')
+#11 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(483): View->renderLayout('', 'default')
+#12 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#13 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#14 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-07-15 01:34:28 Error: [MissingActionException] Action UsersController::membre_index() could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-15 01:39:50 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/Djinn/app/View/Users/user_index.ctp" is missing.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-15 01:40:16 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/Djinn/app/View/Users/user_index.ctp" is missing.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-15 01:42:18 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/Djinn/app/View/Users/user_index.ctp" is missing.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-15 01:42:42 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/Djinn/app/View/Users/user_index.ctp" is missing.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-15 01:44:41 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/Djinn/app/View/Users/user_index.ctp" is missing.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-15 01:44:54 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/Djinn/app/View/Users/user_index.ctp" is missing.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-15 01:44:58 Error: [MissingActionException] Action UsersController::user_indew() could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-15 01:46:46 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/Djinn/app/View/Users/user_index.ctp" is missing.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-15 01:49:31 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-15 01:49:45 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/Djinn/app/View/Users/user_index.ctp" is missing.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-15 01:50:03 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/Djinn/app/View/Users/user_index.ctp" is missing.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-15 01:51:00 Error: [MissingActionException] Action PagesController::admin_menu() could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/Object.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#3 /Applications/MAMP/htdocs/Djinn/app/View/Elements/menu.ctp(1): Object->requestAction(Array)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(920): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(883): View->_evaluate('/Applications/M...', Array)
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(424): View->_render('/Applications/M...', Array)
+#7 /Applications/MAMP/htdocs/Djinn/app/View/Layouts/default.ctp(214): View->element('menu')
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(920): include('/Applications/M...')
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(883): View->_evaluate('/Applications/M...', Array)
+#10 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(539): View->_render('/Applications/M...')
+#11 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(483): View->renderLayout('', 'default')
+#12 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#13 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#14 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#15 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-07-15 01:51:18 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/Djinn/app/View/Users/user_index.ctp" is missing.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-15 01:56:30 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/Djinn/app/View/Users/user_index.ctp" is missing.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-15 01:57:27 Error: [MissingActionException] Action PagesController::user_menu() could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/Object.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#3 /Applications/MAMP/htdocs/Djinn/app/View/Elements/menu.ctp(1): Object->requestAction(Array)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(920): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(883): View->_evaluate('/Applications/M...', Array)
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(424): View->_render('/Applications/M...', Array)
+#7 /Applications/MAMP/htdocs/Djinn/app/View/Layouts/default.ctp(214): View->element('menu')
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(920): include('/Applications/M...')
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(883): View->_evaluate('/Applications/M...', Array)
+#10 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(539): View->_render('/Applications/M...')
+#11 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(483): View->renderLayout('', 'default')
+#12 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#13 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#14 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-07-15 02:06:51 Error: [CakeException] $controller does not implement an isAuthorized() method.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Component/Auth/BaseAuthorize.php(72): ControllerAuthorize->controller(Object(UsersController))
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Component/AuthComponent.php(414): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Component/AuthComponent.php(376): AuthComponent->constructAuthorize()
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Component/AuthComponent.php(326): AuthComponent->isAuthorized(Array)
+#4 [internal function]: AuthComponent->startup(Object(UsersController))
+#5 /Applications/MAMP/htdocs/Djinn/lib/Cake/Utility/ObjectCollection.php(130): call_user_func_array(Array, Array)
+#6 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#7 /Applications/MAMP/htdocs/Djinn/lib/Cake/Event/CakeEventManager.php(246): call_user_func(Array, Object(CakeEvent))
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(671): CakeEventManager->dispatch(Object(CakeEvent))
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(183): Controller->startupProcess()
+#10 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-15 02:08:05 Error: [MissingActionException] Action PagesController::user_menu() could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/Object.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#3 /Applications/MAMP/htdocs/Djinn/app/View/Elements/menu.ctp(1): Object->requestAction(Array)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(920): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(883): View->_evaluate('/Applications/M...', Array)
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(424): View->_render('/Applications/M...', Array)
+#7 /Applications/MAMP/htdocs/Djinn/app/View/Layouts/default.ctp(214): View->element('menu')
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(920): include('/Applications/M...')
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(883): View->_evaluate('/Applications/M...', Array)
+#10 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(539): View->_render('/Applications/M...')
+#11 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(483): View->renderLayout('', 'default')
+#12 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#13 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#14 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-07-15 09:21:29 Error: [MissingActionException] Action PagesController::user_menu() could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/Object.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#3 /Applications/MAMP/htdocs/Djinn/app/View/Elements/menu.ctp(1): Object->requestAction(Array)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(920): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(883): View->_evaluate('/Applications/M...', Array)
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(424): View->_render('/Applications/M...', Array)
+#7 /Applications/MAMP/htdocs/Djinn/app/View/Layouts/default.ctp(214): View->element('menu')
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(920): include('/Applications/M...')
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(883): View->_evaluate('/Applications/M...', Array)
+#10 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(539): View->_render('/Applications/M...')
+#11 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(483): View->renderLayout('', 'default')
+#12 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#13 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#14 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-07-15 09:24:45 Error: [MissingActionException] Action PagesController::user_menu() could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/Object.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#3 /Applications/MAMP/htdocs/Djinn/app/View/Elements/menu.ctp(1): Object->requestAction(Array)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(920): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(883): View->_evaluate('/Applications/M...', Array)
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(424): View->_render('/Applications/M...', Array)
+#7 /Applications/MAMP/htdocs/Djinn/app/View/Layouts/default.ctp(214): View->element('menu')
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(920): include('/Applications/M...')
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(883): View->_evaluate('/Applications/M...', Array)
+#10 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(539): View->_render('/Applications/M...')
+#11 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(483): View->renderLayout('', 'default')
+#12 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#13 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#14 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-07-15 09:30:05 Error: [MissingActionException] Action PagesController::user_menu() could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/Object.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#3 /Applications/MAMP/htdocs/Djinn/app/View/Elements/menu.ctp(1): Object->requestAction(Array)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(920): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(883): View->_evaluate('/Applications/M...', Array)
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(424): View->_render('/Applications/M...', Array)
+#7 /Applications/MAMP/htdocs/Djinn/app/View/Layouts/default.ctp(214): View->element('menu')
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(920): include('/Applications/M...')
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(883): View->_evaluate('/Applications/M...', Array)
+#10 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(539): View->_render('/Applications/M...')
+#11 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(483): View->renderLayout('', 'default')
+#12 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#13 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#14 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-07-15 09:30:16 Error: [MissingActionException] Action PagesController::admin_menu() could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/Object.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#3 /Applications/MAMP/htdocs/Djinn/app/View/Elements/menu.ctp(1): Object->requestAction(Array)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(920): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(883): View->_evaluate('/Applications/M...', Array)
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(424): View->_render('/Applications/M...', Array)
+#7 /Applications/MAMP/htdocs/Djinn/app/View/Layouts/default.ctp(214): View->element('menu')
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(920): include('/Applications/M...')
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(883): View->_evaluate('/Applications/M...', Array)
+#10 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(539): View->_render('/Applications/M...')
+#11 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(483): View->renderLayout('', 'default')
+#12 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#13 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#14 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#15 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-07-15 09:30:26 Error: [MissingActionException] Action PagesController::user_menu() could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/Object.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#3 /Applications/MAMP/htdocs/Djinn/app/View/Elements/menu.ctp(1): Object->requestAction(Array)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(920): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(883): View->_evaluate('/Applications/M...', Array)
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(424): View->_render('/Applications/M...', Array)
+#7 /Applications/MAMP/htdocs/Djinn/app/View/Layouts/default.ctp(214): View->element('menu')
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(920): include('/Applications/M...')
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(883): View->_evaluate('/Applications/M...', Array)
+#10 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(539): View->_render('/Applications/M...')
+#11 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(483): View->renderLayout('', 'default')
+#12 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#13 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#14 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-07-15 09:32:02 Error: [MissingActionException] Action PagesController::user_menu() could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/Object.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#3 /Applications/MAMP/htdocs/Djinn/app/View/Elements/menu.ctp(1): Object->requestAction(Array)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(920): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(883): View->_evaluate('/Applications/M...', Array)
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(424): View->_render('/Applications/M...', Array)
+#7 /Applications/MAMP/htdocs/Djinn/app/View/Layouts/default.ctp(214): View->element('menu')
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(920): include('/Applications/M...')
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(883): View->_evaluate('/Applications/M...', Array)
+#10 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(539): View->_render('/Applications/M...')
+#11 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(483): View->renderLayout('', 'default')
+#12 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#13 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#14 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-07-15 09:34:22 Error: [MissingActionException] Action PagesController::user_menu() could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/Object.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#3 /Applications/MAMP/htdocs/Djinn/app/View/Elements/menu.ctp(1): Object->requestAction(Array)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(920): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(883): View->_evaluate('/Applications/M...', Array)
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(424): View->_render('/Applications/M...', Array)
+#7 /Applications/MAMP/htdocs/Djinn/app/View/Layouts/default.ctp(214): View->element('menu')
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(920): include('/Applications/M...')
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(883): View->_evaluate('/Applications/M...', Array)
+#10 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(539): View->_render('/Applications/M...')
+#11 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(483): View->renderLayout('', 'default')
+#12 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#13 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#14 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-07-15 09:34:42 Error: [MissingActionException] Action PagesController::user_menu() could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/Object.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#3 /Applications/MAMP/htdocs/Djinn/app/View/Elements/menu.ctp(1): Object->requestAction(Array)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(920): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(883): View->_evaluate('/Applications/M...', Array)
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(424): View->_render('/Applications/M...', Array)
+#7 /Applications/MAMP/htdocs/Djinn/app/View/Layouts/default.ctp(214): View->element('menu')
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(920): include('/Applications/M...')
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(883): View->_evaluate('/Applications/M...', Array)
+#10 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(539): View->_render('/Applications/M...')
+#11 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(483): View->renderLayout('', 'default')
+#12 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#13 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#14 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-07-15 09:36:25 Error: [MissingActionException] Action PagesController::user_menu() could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/Object.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#3 /Applications/MAMP/htdocs/Djinn/app/View/Elements/menu.ctp(1): Object->requestAction(Array)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(920): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(883): View->_evaluate('/Applications/M...', Array)
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(424): View->_render('/Applications/M...', Array)
+#7 /Applications/MAMP/htdocs/Djinn/app/View/Layouts/default.ctp(214): View->element('menu')
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(920): include('/Applications/M...')
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(883): View->_evaluate('/Applications/M...', Array)
+#10 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(539): View->_render('/Applications/M...')
+#11 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(483): View->renderLayout('', 'default')
+#12 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#13 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#14 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-07-15 09:37:10 Error: [MissingActionException] Action PagesController::user_menu() could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/Object.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#3 /Applications/MAMP/htdocs/Djinn/app/View/Elements/menu.ctp(1): Object->requestAction(Array)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(920): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(883): View->_evaluate('/Applications/M...', Array)
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(424): View->_render('/Applications/M...', Array)
+#7 /Applications/MAMP/htdocs/Djinn/app/View/Layouts/default.ctp(214): View->element('menu')
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(920): include('/Applications/M...')
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(883): View->_evaluate('/Applications/M...', Array)
+#10 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(539): View->_render('/Applications/M...')
+#11 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(483): View->renderLayout('', 'default')
+#12 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#13 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#14 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-07-15 09:37:25 Error: [MissingActionException] Action PagesController::user_menu() could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/Object.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#3 /Applications/MAMP/htdocs/Djinn/app/View/Elements/menu.ctp(1): Object->requestAction(Array)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(920): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(883): View->_evaluate('/Applications/M...', Array)
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(424): View->_render('/Applications/M...', Array)
+#7 /Applications/MAMP/htdocs/Djinn/app/View/Layouts/default.ctp(214): View->element('menu')
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(920): include('/Applications/M...')
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(883): View->_evaluate('/Applications/M...', Array)
+#10 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(539): View->_render('/Applications/M...')
+#11 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(483): View->renderLayout('', 'default')
+#12 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#13 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#14 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-07-15 09:39:53 Error: [MissingActionException] Action PagesController::user_menu() could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/Object.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#3 /Applications/MAMP/htdocs/Djinn/app/View/Elements/menu.ctp(1): Object->requestAction(Array)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(920): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(883): View->_evaluate('/Applications/M...', Array)
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(424): View->_render('/Applications/M...', Array)
+#7 /Applications/MAMP/htdocs/Djinn/app/View/Layouts/default.ctp(214): View->element('menu')
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(920): include('/Applications/M...')
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(883): View->_evaluate('/Applications/M...', Array)
+#10 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(539): View->_render('/Applications/M...')
+#11 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(483): View->renderLayout('', 'default')
+#12 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#13 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#14 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-07-15 09:41:35 Error: [MissingActionException] Action PagesController::user_menu() could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/Object.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#3 /Applications/MAMP/htdocs/Djinn/app/View/Elements/menu.ctp(1): Object->requestAction(Array)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(920): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(883): View->_evaluate('/Applications/M...', Array)
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(424): View->_render('/Applications/M...', Array)
+#7 /Applications/MAMP/htdocs/Djinn/app/View/Layouts/default.ctp(214): View->element('menu')
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(920): include('/Applications/M...')
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(883): View->_evaluate('/Applications/M...', Array)
+#10 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(539): View->_render('/Applications/M...')
+#11 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(483): View->renderLayout('', 'default')
+#12 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#13 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#14 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-07-15 09:49:48 Error: [MissingActionException] Action PagesController::user_menu() could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/Object.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#3 /Applications/MAMP/htdocs/Djinn/app/View/Elements/menu.ctp(1): Object->requestAction(Array)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(920): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(883): View->_evaluate('/Applications/M...', Array)
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(424): View->_render('/Applications/M...', Array)
+#7 /Applications/MAMP/htdocs/Djinn/app/View/Layouts/default.ctp(214): View->element('menu')
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(920): include('/Applications/M...')
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(883): View->_evaluate('/Applications/M...', Array)
+#10 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(539): View->_render('/Applications/M...')
+#11 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(483): View->renderLayout('', 'default')
+#12 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#13 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#14 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-07-15 09:55:55 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-15 09:56:32 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-15 09:56:56 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-15 10:23:47 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-15 10:23:49 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-15 10:23:54 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-15 10:23:57 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-15 10:24:00 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-15 10:24:47 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-15 10:24:51 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-15 10:59:31 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-15 10:59:37 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-15 10:59:43 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-15 10:59:51 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
