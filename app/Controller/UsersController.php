@@ -25,7 +25,7 @@ class UsersController extends AppController{
             $d = $this->request->data;
             $d['User']['id'] = null;
             if(!empty($d['User']['password'])){
-                $d['User']['password'] = $d['User']['password'];
+                $d['User']['password'] = Security::hash($d['User']['password'],null,true);
             }
             if($this->User->save($d, true, array('username', 'password', 'mail'))){
                 $link = array('controller'=>'users', 'action'=>'activate', $this->User->id
@@ -60,7 +60,7 @@ class UsersController extends AppController{
             $d['User']['id'] = $user_id;
             if(!empty($d['User']['pass1'])){
                 if($d['User']['pass1'] == $d['User']['pass2']){
-                    $d['User']['password'] = $d['User']['pass1'];
+                    $d['User']['password'] = Security::hash($d['User']['pass1'], null, true);
                 }else{
                     $passError = true;
                 }
@@ -83,7 +83,6 @@ class UsersController extends AppController{
     }
     
     function password(){
-        
         if(!empty($this->request->params['named']['token'])){
             $token = $this->request->params['named']['token'];
             $token = explode('-', $token);
@@ -93,13 +92,12 @@ class UsersController extends AppController{
             if($user){
                 $this->User->id = $user['User']['id'];
                 $password = substr(md5(uniqid(rand(), true)), 0, 8);
-                $this->User->saveField('password', $password);
+                $this->User->saveField('password', Security::hash($password,null,true));
                 $this->Session->setFlash("Votre mot de passe a bien été réinistialisé, voici votre nouveau mot de passe: $password", "notif");
             }else{
                 $this->Session->setFlash("Le lien n'est pas valide", "notif", array('type'=>'error'));
             }
         }
-        
         if($this->request->is('post')){
             $v = current($this->request->data);
             $user = $this->User->find('first', array(
@@ -149,16 +147,19 @@ class UsersController extends AppController{
     
     function admin_edit($id=null){
         if($this->request->is('post') || $this->request->is('put')){
-            $d = $this->request->data['User'];
+             $d = $this->request->data['User'];
+            if(empty($d['password']))
+                    unset($d['password']);
             if($d['password'] != $d['passwordconfirm']){
                 $this->Session->setFlash("les mots de passes ne correspondent pas", "notif",array('type'=>'error'));
-            }else{
-                if(empty($d['password']))
-                    unset($d['password']);
-                if($this->User->save($d)){
-                    $this->Session->setFlash("L'utisateur a bien été enregistrée", "notif");
-                }
             }
+            if(!empty($d['password'])){
+                $d['password'] = Security::hash($d['password'],null,true);
+            }
+            if($this->User->save($d)){
+                $this->Session->setFlash("L'utisateur a bien été enregistrée", "notif");
+                $this->request->data = array();
+            }  
         }elseif($id){
             $this->User->id = $id;
             $this->request->data = $this->User->read('username, role, id');
