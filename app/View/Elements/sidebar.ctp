@@ -1,4 +1,4 @@
- <div class="span2">
+
     <!--Sidebar content-->
           <div class="well sidebar-nav-fixed">
         <header><h2>Rejoignez-nous dès maintenant pour réaliser vos souhaits et ceux des autres.</h2></header>
@@ -16,4 +16,3 @@
           <?php endforeach; ?>
         </ul>
       </div><!--/.well -->
-    </div>

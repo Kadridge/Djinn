@@ -4,4 +4,4 @@
 </div>
 <?php echo $this->element('sidebar'); ?>
 <?php echo $post['Post']['content']; ?>
-<p>Publié le: <?php echo $this->Date->french($post['Post']['created']); ?></p>
+<p>Publié le: <?php echo $this->Date->french($post['Post']['created']); ?> Par <?php echo $post['User']['username']; ?></p>

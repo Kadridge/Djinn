@@ -63,8 +63,11 @@ class PostsController extends AppController {
     }
     
     function admin_edit($id = null){
+        $user_id = $this->Auth->user('id');
         if($this->request->is('put') ||$this->request->is('post')){
-            if($this->Post->save($this->request->data)){
+            $d = $this->request->data;
+            $d['Post']['user_id'] = $user_id;
+            if($this->Post->save($d)){
                 $this->Session->setFlash("Le contenu a bien été modifié", "notif");
                 $this->redirect(array('action'=>'index'));
             }

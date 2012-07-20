@@ -11,6 +11,9 @@ public $belongsTo = array(
         'counterCache'=> array(
             'post_count'=> array('Post.online'=>1)
         )
+    ),
+    'User' => array(
+        'foreignKey'    => 'user_id'
     )
 );
 

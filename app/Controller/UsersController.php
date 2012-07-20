@@ -157,6 +157,7 @@ class UsersController extends AppController{
                     unset($d['password']);
                 if($this->User->save($d)){
                     $this->Session->setFlash("L'utisateur a bien été enregistrée", "notif");
+                    $this->redirect(array('action'=>'admin_index'));
                 }
             }
         }elseif($id){
