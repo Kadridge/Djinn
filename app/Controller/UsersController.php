@@ -148,18 +148,17 @@ class UsersController extends AppController{
     function admin_edit($id=null){
         if($this->request->is('post') || $this->request->is('put')){
              $d = $this->request->data['User'];
-            if(empty($d['password']))
-                    unset($d['password']);
             if($d['password'] != $d['passwordconfirm']){
                 $this->Session->setFlash("les mots de passes ne correspondent pas", "notif",array('type'=>'error'));
+            }else{
+               if(!empty($d['password']))
+                    $d['password'] = Security::hash($d['password'], null, true);
+                if(empty($d['password']))
+                    unset($d['password']);
+                if($this->User->save($d)){
+                    $this->Session->setFlash("L'utisateur a bien été enregistrée", "notif");
+                }
             }
-            if(!empty($d['password'])){
-                $d['password'] = Security::hash($d['password'],null,true);
-            }
-            if($this->User->save($d)){
-                $this->Session->setFlash("L'utisateur a bien été enregistrée", "notif");
-                $this->request->data = array();
-            }  
         }elseif($id){
             $this->User->id = $id;
             $this->request->data = $this->User->read('username, role, id');
