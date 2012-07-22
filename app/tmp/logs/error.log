@@ -8092,3 +8092,509 @@
 2012-07-20 20:10:33 Error: [MissingControllerException] Controller class JsController could not be found.
 #0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2012-07-22 12:23:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 12:25:40 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.id' in 'where clause'
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Post`.`...', false)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(2631): DboSource->read(Object(Post), Array)
+#5 /Applications/MAMP/htdocs/Djinn/app/Controller/PostsController.php(33): Model->find('all', Array)
+#6 [internal function]: PostsController->index()
+#7 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-07-22 12:32:30 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_id' in 'where clause'
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(2631): DboSource->read(Object(User), Array)
+#5 /Applications/MAMP/htdocs/Djinn/app/Controller/PostsController.php(36): Model->find('first', Array)
+#6 [internal function]: PostsController->index()
+#7 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-07-22 12:33:19 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_id' in 'where clause'
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(2631): DboSource->read(Object(User), Array)
+#5 /Applications/MAMP/htdocs/Djinn/app/Controller/PostsController.php(36): Model->find('first', Array)
+#6 [internal function]: PostsController->index()
+#7 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-07-22 12:33:33 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_id' in 'where clause'
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(2631): DboSource->read(Object(User), Array)
+#5 /Applications/MAMP/htdocs/Djinn/app/Controller/PostsController.php(36): Model->find('first', Array)
+#6 [internal function]: PostsController->index()
+#7 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-07-22 12:33:53 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_id' in 'where clause'
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(2631): DboSource->read(Object(User), Array)
+#5 /Applications/MAMP/htdocs/Djinn/app/Controller/PostsController.php(36): Model->find('first', Array)
+#6 [internal function]: PostsController->index()
+#7 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-07-22 12:38:03 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User' in 'where clause'
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Post`.`...', false)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(2631): DboSource->read(Object(Post), Array)
+#5 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Component/PaginatorComponent.php(173): Model->find('all', Array)
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(1082): PaginatorComponent->paginate('Post', 'User', Array)
+#7 /Applications/MAMP/htdocs/Djinn/app/Controller/PostsController.php(34): Controller->paginate('Post', 'User', Array)
+#8 [internal function]: PostsController->index()
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#10 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#12 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-07-22 12:42:30 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Post.user_id' in 'where clause'
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(2631): DboSource->read(Object(User), Array)
+#5 /Applications/MAMP/htdocs/Djinn/app/Controller/PostsController.php(36): Model->find('first', Array)
+#6 [internal function]: PostsController->index()
+#7 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-07-22 12:50:47 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Applications/MAMP/htdocs/Djinn/app/Model/Post.php, line 60]
+2012-07-22 12:50:47 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 60)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 60, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 60, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-22 12:52:24 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/MAMP/htdocs/Djinn/app/Model/Post.php, line 63]
+2012-07-22 12:52:24 Error: [FatalErrorException] syntax error, unexpected '}'
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 63)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 63, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 63, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-22 13:17:23 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Post' in 'where clause'
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Post`.`...', false)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(2631): DboSource->read(Object(Post), Array)
+#5 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Component/PaginatorComponent.php(173): Model->find('all', Array)
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(1082): PaginatorComponent->paginate('Post', Array, Array)
+#7 /Applications/MAMP/htdocs/Djinn/app/Controller/PostsController.php(37): Controller->paginate('Post', Array, Array)
+#8 [internal function]: PostsController->index()
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#10 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#12 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-07-22 13:17:23 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 13:44:07 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 13:44:10 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 13:44:12 Error: [MissingHelperException] Helper class UploaderHelper could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(861): HelperCollection->load('Uploader', Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(468): View->loadHelpers()
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-07-22 13:44:12 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 13:46:48 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 13:51:42 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 13:51:42 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in [/Applications/MAMP/htdocs/Djinn/app/Plugin/Media/webroot/js/tinymce/tiny_mce.js, line 1]
+2012-07-22 13:51:42 Error: [FatalErrorException] syntax error, unexpected T_CONSTANT_ENCAPSED_STRING
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 1)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 1, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 1, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-22 13:51:50 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 13:52:40 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 13:56:10 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 13:56:37 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 13:56:41 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 13:58:31 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 13:58:52 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 13:59:27 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 13:59:31 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 13:59:49 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 13:59:57 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 14:00:52 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 14:04:51 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 14:06:37 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 14:06:43 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 14:06:46 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 14:06:55 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 14:11:55 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 14:11:58 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 14:11:58 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 14:19:11 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 14:19:22 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 14:20:57 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 14:23:23 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 14:24:19 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 14:24:24 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 14:24:26 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 14:24:30 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 14:25:51 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 14:26:17 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 14:27:03 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 14:27:06 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 14:27:14 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 14:27:40 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 14:28:17 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 14:37:31 Error: [PrivateActionException] Private Action PostsController::admin_index() is not directly accessible.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-22 14:38:35 Error: [PrivateActionException] Private Action PagesController::admin_index() is not directly accessible.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-22 14:42:29 Error: [MissingActionException] Action PagesController::admin() could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-22 14:43:13 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 14:43:18 Error: [PrivateActionException] Private Action PostsController::admin_index() is not directly accessible.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-22 14:43:27 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 14:48:40 Error: Fatal Error (4): syntax error, unexpected $end in [/Applications/MAMP/htdocs/Djinn/app/View/Elements/menu.ctp, line 40]
+2012-07-22 14:48:40 Error: [FatalErrorException] syntax error, unexpected $end
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 40)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 40, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 40, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-22 15:02:44 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 15:03:01 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 15:03:18 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 15:03:19 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 15:03:26 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 15:03:30 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 15:04:03 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 15:11:30 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 15:11:32 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 15:11:38 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 15:44:05 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 15:44:13 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 15:44:16 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 15:44:22 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 15:44:27 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 15:44:40 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 15:45:22 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 16:05:40 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 16:05:42 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 16:25:33 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User' in 'where clause'
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Post`.`...', false)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(2631): DboSource->read(Object(Post), Array)
+#5 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Component/PaginatorComponent.php(173): Model->find('all', Array)
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(1082): PaginatorComponent->paginate('Post', 'User', Array)
+#7 /Applications/MAMP/htdocs/Djinn/app/Controller/PostsController.php(31): Controller->paginate('Post', 'User', Array)
+#8 [internal function]: PostsController->index()
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#10 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#12 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-07-22 17:12:41 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Applications/MAMP/htdocs/Djinn/app/Controller/PostsController.php, line 31]
+2012-07-22 17:12:41 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 31)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 31, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 31, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-22 17:47:48 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'created' in where clause is ambiguous
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Post`.`...', false)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(2631): DboSource->read(Object(Post), Array)
+#5 /Applications/MAMP/htdocs/Djinn/app/Controller/PostsController.php(35): Model->find('all', Array)
+#6 [internal function]: PostsController->index()
+#7 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-07-22 17:48:18 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'created' in where clause is ambiguous
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Post`.`...', false)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(2631): DboSource->read(Object(Post), Array)
+#5 /Applications/MAMP/htdocs/Djinn/app/Controller/PostsController.php(35): Model->find('all', Array)
+#6 [internal function]: PostsController->index()
+#7 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-07-22 17:50:01 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'created' in where clause is ambiguous
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Post`.`...', false)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(2631): DboSource->read(Object(Post), Array)
+#5 /Applications/MAMP/htdocs/Djinn/app/Controller/PostsController.php(35): Model->find('all', Array)
+#6 [internal function]: PostsController->index()
+#7 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-07-22 18:00:55 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recursive' in 'where clause'
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Post`.`...', false)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(2631): DboSource->read(Object(Post), Array)
+#5 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Component/PaginatorComponent.php(173): Model->find('all', Array)
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(1082): PaginatorComponent->paginate('Post', Array, Array)
+#7 /Applications/MAMP/htdocs/Djinn/app/Controller/PostsController.php(31): Controller->paginate('Post', Array)
+#8 [internal function]: PostsController->index()
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#10 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#12 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-07-22 18:06:40 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recursive' in 'where clause'
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Post`.`...', false)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(2631): DboSource->read(Object(Post), Array)
+#5 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Component/PaginatorComponent.php(173): Model->find('all', Array)
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(1082): PaginatorComponent->paginate('Post', Array, Array)
+#7 /Applications/MAMP/htdocs/Djinn/app/Controller/PostsController.php(31): Controller->paginate('Post', Array, Array)
+#8 [internal function]: PostsController->index()
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#10 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#12 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-07-22 18:07:00 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recursive' in 'where clause'
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Post`.`...', false)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(2631): DboSource->read(Object(Post), Array)
+#5 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Component/PaginatorComponent.php(173): Model->find('all', Array)
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(1082): PaginatorComponent->paginate('Post', Array, Array)
+#7 /Applications/MAMP/htdocs/Djinn/app/Controller/PostsController.php(31): Controller->paginate('Post', Array)
+#8 [internal function]: PostsController->index()
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#10 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#12 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-07-22 18:08:19 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'created' in where clause is ambiguous
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Post`.`...', false)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(2631): DboSource->read(Object(Post), Array)
+#5 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Component/PaginatorComponent.php(173): Model->find('all', Array)
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(1082): PaginatorComponent->paginate('Post', Array, Array)
+#7 /Applications/MAMP/htdocs/Djinn/app/Controller/PostsController.php(32): Controller->paginate('Post', Array)
+#8 [internal function]: PostsController->index()
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#10 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#12 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-07-22 18:16:24 Error: [MissingControllerException] Controller class Profile.htmlController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 18:21:57 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 18:22:01 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 18:22:04 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 18:22:06 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 18:22:08 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 18:22:10 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 18:22:12 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-22 18:22:22 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

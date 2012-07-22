@@ -33,4 +33,7 @@ class User extends AppModel{
           'allowEmpty'  => false
       )  
     );
+    
+    	var $name = 'User';
+	var $hasMany = array('Post'=>array('className'=>'Post'));
 }

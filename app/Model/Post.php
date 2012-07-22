@@ -1,6 +1,8 @@
 <?php
 class Post extends AppModel{
     
+    var $name = 'Post';
+    
     public $hasMany = array(
         'Media' => array(
             'dependent'=> true
@@ -13,7 +15,7 @@ public $belongsTo = array(
         )
     ),
     'User' => array(
-        'foreignKey'    => 'user_id'
+        'className'    => 'User'
     )
 );
 

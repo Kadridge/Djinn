@@ -9,6 +9,7 @@
         <th>ID</th>
         <th>Login</th>
         <th>Role</th>
+        <th>Activé</th>
         <th>Actions</th>
     </tr>
     <?php foreach($users as $k=>$v): $v = current($v); ?>
@@ -16,6 +17,7 @@
         <td><?php echo $v['id']; ?></td>
         <td><?php echo $v['username']; ?></td>
         <td><?php echo $v['role']; ?></td>
+        <td><?php echo $v['active'] == '0'?'<span class="label label-important">désactivé</span>':'<span class="label label-success">Activé</span>'; ?></td>
         <td>
             <?php echo $this->Html->link("Editer", array('action'=>'edit', $v['id'])); ?> -
             <?php echo $this->Html->link("Supprimer", array('action'=>'delete', $v['id']), null, 
