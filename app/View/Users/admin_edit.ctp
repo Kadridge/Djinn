@@ -9,5 +9,6 @@
     <?php echo $this->Form->input('passwordconfirm', array('label'=>'Confirmer votre mot de passe', 'type'=>'password')); ?>
     <?php echo $this->Form->input('role', array('label'=>'Role')); ?>
     <?php echo $this->Form->input('id'); ?>
+<?php echo $this->Form->input('active', array('label'=>'Activé ?', 'type'=>'checkbox')); ?>
 
 <?php echo $this->Form->end('Envoyer'); ?>

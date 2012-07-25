@@ -19,8 +19,8 @@
                     <a href="" class="help-wish" rel="tipsy" title="Je réalise le souhait"><i class="icon-thumbs-up"></i></a>
                     <a href="" class="like-wish" rel="tipsy" title="Je soutiens"><i class="icon-heart"></i></a>
                     <a href="" class="comment-wish" rel="tipsy" title="Je commente"><i class="icon-comment"></i></a>
-                    <?php echo $this->Text->truncate($v['Post']['content'], 100, array('exact'=>false, 'html'=>true)); ?>
-                    <div class="author"><img class="commentAvatar" src="http://placehold.it/20x20"><p>Par <a href="profile.html"><?php echo $v['User']['username']; ?></a></p></div>
+                    <img src="/Djinn/img/<?php echo $v['Media']['0']['crop']; ?>">
+                    <div class="author"><img class="commentAvatar" src="http://placehold.it/20x20"><p>Par <?php echo $this->Html->link($v['User']['username'], array('controller' => 'users', 'action' => 'show', $v['User']['id'])); ?></p></div>
                     <div class="popularity">
                         <span>100000 <i class="icon-eye-open"></i></span>
                         <span>10 <i class="icon-heart"></i></span>

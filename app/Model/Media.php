@@ -6,7 +6,7 @@ class Media extends AppModel{
     
     public $validate = array(
       'url' => array(
-          'rule'        => '/^.*\.(jpg|JPG|png|jpeg)$/',
+          'rule'        => '/^.*\.(jpg|JPG|png)$/',
           'allowEmpty'  => true,
           'message'     => "Le fichier n'est pas une image valide"
       ));  

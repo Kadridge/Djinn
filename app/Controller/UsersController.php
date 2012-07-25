@@ -78,6 +78,14 @@ class UsersController extends AppController{
         $this->request->data['User']['pass1'] = $this->request->data['User']['pass2'] = '';
     }
     
+    function show($id){
+
+        $user = $this->User->find('first', array('conditions'=>array('User.id'=>$id)));
+        
+        $d['user'] = $user;
+        $this->set($d);
+    }
+    
     function user_index(){
         
     }

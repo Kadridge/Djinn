@@ -19,8 +19,6 @@ public $belongsTo = array(
     )
 );
 
-    public $recursive = -1;
-    
     public $validate = array(
       'slug' => array(
           'rule'        => '/^[a-z0-9\-]+$/',

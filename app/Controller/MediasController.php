@@ -32,6 +32,7 @@ class MediasController extends AppController
                         $success= $this->Media->save(array(
                             'name'=>$data['name'],
                             'url'=> date('Y').'/'.date('m').'/'.$filename.$ext,
+                            'crop'=> date('Y').'/'.date('m').'/'.$filename.'_m'.$ext,
                             'post_id'=> $post_id
                              
                             ));

@@ -23,7 +23,7 @@
                 <li id="login"><?php echo $this->Html->link("Admin", '/admin/pages'); ?></li>
            <?php endif; ?>
             <li id="login"><?php echo $this->Html->link("Se déconnecter", array('action'=>'logout', 'controller'=>'users')); ?></li>
-            <li id="login"><?php echo $this->Html->link("Mon compte", array('action'=>'edit', 'controller'=>'users')); ?></li>
+            <li id="login"><?php echo $this->Html->link("Mon compte", array('action'=>'show', 'controller'=>'users', $this->Session->read('Auth.User.id'))); ?></li>
           <?php else: ?>
           <li id="login"><?php echo $this->Html->link("Se connecter", array('action'=>'login', 'controller'=>'users')); ?></li>
           <li id="login"><?php echo $this->Html->link("S'inscrire", array('action'=>'signup', 'controller'=>'users')); ?></li>

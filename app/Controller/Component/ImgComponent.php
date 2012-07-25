@@ -15,7 +15,7 @@ function crop($img,$dest,$largeur=0,$hauteur=0){
         if($dimension[0]==($largeur/$hauteur)*$dimension[1]){ $dimX=$largeur; $dimY=$hauteur; $decalX=0; $decalY=0;}
         $miniature =imagecreatetruecolor ($largeur,$hauteur);
         $ext = end(explode('.',$img)); 
-        if(in_array($ext,array('jpeg','jpg','JPG','JPEG'))){$image = imagecreatefromjpeg($img); }
+        if(in_array($ext,array('jpeg','jpg','JPG'))){$image = imagecreatefromjpeg($img); }
         elseif(in_array($ext,array('png','PNG'))){$image = imagecreatefrompng($img); }
         elseif(in_array($ext,array('gif','GIF'))){$image = imagecreatefromgif($img); }
         else{ return false; }

@@ -28,9 +28,9 @@ class PostsController extends AppController {
         }
         
     function index(){
-            $this->Post->recursive = 1;
             $d['posts'] = $this->Paginate('Post', array('type'=>'post', 'online'=>1, 'Post.created <= NOW()'));
             $this->set($d);
+            debug($d);
         }
         
     function show($id = null, $slug = null){
