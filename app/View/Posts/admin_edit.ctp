@@ -2,8 +2,13 @@
     <h1>Editer un article</h1>
 </div>
 
-<?php echo $this->Form->create('Post'); ?>
-
+<?php echo $this->Form->create('Post', array('type' => 'file')); ?>
+<?php
+    echo $this->Form->input('filename', array('type' => 'file'));
+    echo $this->Form->input('dir', array('type' => 'hidden'));
+    echo $this->Form->input('mimetype', array('type' => 'hidden'));
+    echo $this->Form->input('filesize', array('type' => 'hidden'));
+?>
     <?php echo $this->Form->input('name', array('label'=>'Titre')); ?>
     <?php echo $this->Form->input('slug', array('label'=>'URL')); ?>
     <?php echo $this->Form->input('category_id', array('label'=>'Categorie')); ?>
