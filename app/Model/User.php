@@ -35,7 +35,7 @@ class User extends AppModel{
     );
     
     	var $name = 'User';
-	var $hasMany = array('Post'=>array('className'=>'Post'));
+	var $hasMany = array('Post'=>array('className'=>'Post'), 'Comment');
         
     var $actsAs = array(
     'MeioUpload.MeioUpload' => array(

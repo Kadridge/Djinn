@@ -10017,3 +10017,79 @@
 2012-07-26 12:26:25 Error: [MissingControllerException] Controller class ThumbController could not be found.
 #0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2012-07-26 15:34:26 Error: [MissingControllerException] Controller class ThumbController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-26 15:57:07 Error: [MissingControllerException] Controller class ThumbController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-26 16:15:55 Error: Fatal Error (1): Cannot use string offset as an array in [/Applications/MAMP/htdocs/Djinn/app/View/Posts/show.ctp, line 15]
+2012-07-26 16:15:55 Error: [FatalErrorException] Cannot use string offset as an array
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Cannot use stri...', '/Applications/M...', 15)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use stri...', '/Applications/M...', 15, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot use stri...', '/Applications/M...', 15, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-26 16:18:39 Error: Fatal Error (4): syntax error, unexpected '<' in [/Applications/MAMP/htdocs/Djinn/app/View/Posts/show.ctp, line 14]
+2012-07-26 16:18:39 Error: [FatalErrorException] syntax error, unexpected '<'
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 14, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 14, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-26 16:18:55 Error: Fatal Error (4): syntax error, unexpected T_STRING in [/Applications/MAMP/htdocs/Djinn/app/View/Posts/show.ctp, line 13]
+2012-07-26 16:18:55 Error: [FatalErrorException] syntax error, unexpected T_STRING
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 13, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 13, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-26 16:19:18 Error: Fatal Error (4): syntax error, unexpected T_STRING in [/Applications/MAMP/htdocs/Djinn/app/View/Posts/show.ctp, line 18]
+2012-07-26 16:19:18 Error: [FatalErrorException] syntax error, unexpected T_STRING
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 18, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 18, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-26 16:27:32 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [/Applications/MAMP/htdocs/Djinn/app/Controller/PostsController.php, line 42]
+2012-07-26 16:27:32 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 42, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 42, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-26 16:33:56 Error: [MissingControllerException] Controller class ThumbController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-26 16:34:19 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-26 16:58:08 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-26 16:58:11 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-26 16:58:13 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-26 16:59:18 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-26 17:06:21 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-26 17:06:23 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-26 17:06:25 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-26 17:06:35 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

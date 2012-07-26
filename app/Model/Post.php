@@ -20,7 +20,9 @@ class Post extends AppModel{
     public $hasMany = array(
         'Media' => array(
             'dependent'=> true
-        ));
+        ),
+        'Comment'
+        );
         
 public $belongsTo = array(
     'Category' => array(

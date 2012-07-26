@@ -36,7 +36,10 @@ class PostsController extends AppController {
     function show($id = null, $slug = null){
         $post = $this->Post->find('first',array(
             'conditions' => array('Post.id' => $id),
-            'recursive'  => 0
+            'recursive'  => 1
+        ));
+        $d['comments'] = $this->Post->Comment->find('all', array(
+            'conditions' => array('Post.id' => $id)
         ));
         if(!$id)
             throw new NotFoundException('Aucune page ne correspond à cet ID');
