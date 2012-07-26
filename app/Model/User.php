@@ -36,4 +36,19 @@ class User extends AppModel{
     
     	var $name = 'User';
 	var $hasMany = array('Post'=>array('className'=>'Post'));
+        
+    var $actsAs = array(
+    'MeioUpload.MeioUpload' => array(
+    'filename' => array(
+        'create_directory' => true,
+        'allowed_mime' => array('image/jpeg', 'image/pjpeg', 'image/png'),
+        'allowed_ext' => array('.jpg', '.jpeg', '.png'),
+        'zoomCrop' => true,
+        'thumbsizes' => array(
+        'normal' => array('width' => 400, 'height' => 300),
+        'small' => array('width' => 50, 'height' => 50,'maxDimension' => '', 'thumbnailQuality' => 100, 'zoomCrop' => true),
+        'vignette' => array('width' => 100, 'height' => 100,'maxDimension' => '', 'thumbnailQuality' => 100, 'zoomCrop' => true),  
+        )
+    ) 
+    ));
 }

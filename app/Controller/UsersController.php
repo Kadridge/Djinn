@@ -65,7 +65,7 @@ class UsersController extends AppController{
                     $passError = true;
                 }
             }
-            if($this->User->save($d,true,array('firstname','lastname','password'))){
+            if($this->User->save($d,true,array('firstname','lastname','password', 'filename', 'dir', 'mimetype', 'filesize'))){
                 $this->Session->setFlash("Votre profil a bien été édité", "notif");
             }else{
                 $this->Session->setFlash("Impossible de sauvegarder", "notif", array('type'=>'error'));

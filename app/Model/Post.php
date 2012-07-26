@@ -2,21 +2,21 @@
 class Post extends AppModel{
     
     var $name = 'Post';
-var $actsAs = array(
-'MeioUpload.MeioUpload' => array(
-  'filename' => array(        
-    'create_directory' => true,
-    'allowed_mime' => array('image/jpeg', 'image/pjpeg', 'image/png'),
-    'allowed_ext' => array('.jpg', '.jpeg', '.png'),
-    'zoomCrop' => true,
-    'thumbsizes' => array(
-      'normal' => array('width' => 400, 'height' => 300),
-      'small' => array('width' => 80, 'height' => 80,'maxDimension' => '', 'thumbnailQuality' => 100, 'zoomCrop' => true),
-      'vignette' => array('width' => 100, 'height' => 100,'maxDimension' => '', 'thumbnailQuality' => 100, 'zoomCrop' => true),  
-    ),
-    'default' => 'default.jpg'
-  ) 
-));
+    var $actsAs = array(
+    'MeioUpload.MeioUpload' => array(
+    'filename' => array(        
+        'create_directory' => true,
+        'allowed_mime' => array('image/jpeg', 'image/pjpeg', 'image/png'),
+        'allowed_ext' => array('.jpg', '.jpeg', '.png'),
+        'zoomCrop' => true,
+        'thumbsizes' => array(
+        'normal' => array('width' => 400, 'height' => 300),
+        'small' => array('width' => 80, 'height' => 80,'maxDimension' => '', 'thumbnailQuality' => 100, 'zoomCrop' => true),
+        'vignette' => array('width' => 100, 'height' => 100,'maxDimension' => '', 'thumbnailQuality' => 100, 'zoomCrop' => true),  
+        ),
+        'default' => 'default.jpg'
+    ) 
+    ));
     public $hasMany = array(
         'Media' => array(
             'dependent'=> true

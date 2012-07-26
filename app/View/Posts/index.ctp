@@ -20,7 +20,7 @@
                     <a href="" class="like-wish" rel="tipsy" title="Je soutiens"><i class="icon-heart"></i></a>
                     <a href="" class="comment-wish" rel="tipsy" title="Je commente"><i class="icon-comment"></i></a>
                     <img src="/Djinn/<?php echo $v['Post']['dir']; ?>/thumb/vignette/<?php echo $v['Post']['filename']; ?>">
-                    <div class="author"><img class="commentAvatar" src="http://placehold.it/20x20"><p>Par <?php echo $this->Html->link($v['User']['username'], array('controller' => 'users', 'action' => 'show', $v['User']['id'])); ?></p></div>
+                    <div class="author"><img class="commentAvatar" src="/Djinn/<?php echo $v['User']['dir']; ?>/thumb/small/<?php echo $v['User']['filename']; ?>"><p>Par <?php echo $this->Html->link($v['User']['username'], array('controller' => 'users', 'action' => 'show', $v['User']['id'])); ?></p></div>
                     <div class="popularity">
                         <span>100000 <i class="icon-eye-open"></i></span>
                         <span>10 <i class="icon-heart"></i></span>
