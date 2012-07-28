@@ -1,10 +1,8 @@
 <?php
-
 class PostsController extends AppController {
-
     public $helpers = array('Date');
     public $components = array('RequestHandler');
-
+    
     function menu(){
         $pages = $this->Post->find('all',array(
             'conditions' => array('type' => 'post', 'online' => 1),
@@ -41,12 +39,20 @@ class PostsController extends AppController {
         $d['comments'] = $this->Post->Comment->find('all', array(
             'conditions' => array('Post.id' => $id)
         ));
+        if(!empty($this->data)){
+            if(AuthComponent::user('id')){
+                $this->Post->Comment->save($this->data);
+                $this->Session->setFlash("Votre commentaire a bien été posté", "notif");
+            }else{
+                $this->Session->setFlash("Vous devez être connecté pour poster un commentaire", "notif", array('type'=>'error'));
+            }
+        }
         if(!$id)
             throw new NotFoundException('Aucune page ne correspond à cet ID');
         if(empty($post))
             throw new NotFoundException('Aucune page ne correspond à cet ID');
         if($slug != $post['Post']['slug'])
-            $this->redirect ($post['Post']['link'],301);
+            $this->redirect($post['Post']['link'],301);
         $d['post'] = $post;
         $this->set($d);
     }

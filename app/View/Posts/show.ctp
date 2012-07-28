@@ -1,5 +1,3 @@
-
-
 <?php $this->set('title_for_layout', $post['Post']['name']); ?>
 <div class="page-header">
     <h1><?php echo $post['Post']['name'];?></h1><small><?php echo $post['Category']['name']; ?></small>
@@ -14,4 +12,9 @@
 <?php echo $v['Comment']['content']; ?>
 <?php endforeach; ?>
 
+<?php echo $this->Form->create('Comment', array('url'=>array('controller'=>'posts', 'action'=>'show', $post['Post']['id']))); ?>
+    <?php echo $this->Form->input('content', array('label'=>'Laisser un commentaire')); ?>
+    <?php echo $this->Form->input('post_id', array('type'=>'hidden', 'value'=>$post['Post']['id'])); ?>
+    <?php echo $this->Form->input('user_id', array('type'=>'hidden', 'value'=>$this->Session->read('Auth.User.id'))); ?>
+<?php echo $this->Form->end('Envoyer'); ?>
 
