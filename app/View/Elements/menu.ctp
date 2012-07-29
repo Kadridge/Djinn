@@ -1,4 +1,3 @@
-<?php debug($this->Session->read()); ?>   
 <?php $pages = $this->requestAction(array('controller'=>'pages','action'=>'menu')); ?>   
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
@@ -59,7 +58,21 @@
               </ul>
             </li>
           <?php else: ?>
-          <li id="login"><?php echo $this->Html->link("Se connecter", array('action'=>'login', 'controller'=>'users')); ?></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="connexion">Connexion</a>
+                <div class="well dropdown-menu">
+                <?php echo $this->Form->create(null, array('url' => array('action' => 'login', 'controller' => 'users'))); ?>
+                <?php echo $this->Form->input('User.username', array('class'=>"span 3",'label'=>"Nom d'utilisateur"));  ?>
+                <?php echo $this->Form->input('User.password', array('class'=>"span 3",'label'=>"Mot de passe"));  ?>
+                    <?php echo $this->Form->end('Se connecter');  ?>
+                <div class="btn-group">
+                    <button class="btn btn-primary"><img src="img/facebook-white.png"> Facebook</button>
+                    <button class="btn btn-info"><img src="img/twitter-white.png"> Twitter</button>
+                </div>
+                <?php echo $this->Html->link("Mot de passe oublié ?", array('action'=>'password', 'controller'=>'users'));  ?>
+                
+              </div>
+            </li>
           <li id="login"><?php echo $this->Html->link("S'inscrire", array('action'=>'signup', 'controller'=>'users')); ?></li>
           <?php endif; ?>
               </li>
