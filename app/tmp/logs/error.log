@@ -13270,3 +13270,112 @@
 2012-07-29 15:43:42 Error: [MissingControllerException] Controller class JsController could not be found.
 #0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2012-07-29 15:49:22 Error: [MissingControllerException] Controller class PostController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-29 15:49:22 Error: [MissingControllerException] Controller class PostController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-29 15:56:40 Error: [MissingActionException] Action UsersController::img() could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-29 15:56:40 Error: [MissingActionException] Action UsersController::img() could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-29 15:58:16 Error: [MissingActionException] Action UsersController::img() could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-29 15:58:16 Error: [MissingActionException] Action UsersController::img() could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-29 16:00:30 Error: Fatal Error (1): Call to a member function image() on a non-object in [/Applications/MAMP/htdocs/Djinn/app/View/Elements/menu.ctp, line 69]
+2012-07-29 16:00:30 Error: [FatalErrorException] Call to a member function image() on a non-object
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 69)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 69, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 69, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 16:00:31 Error: [MissingActionException] Action UsersController::<pre class=() could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-29 16:00:31 Error: Fatal Error (1): Call to a member function image() on a non-object in [/Applications/MAMP/htdocs/Djinn/app/View/Elements/menu.ctp, line 69]
+2012-07-29 16:00:31 Error: [FatalErrorException] Call to a member function image() on a non-object
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 69)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 69, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 69, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 16:00:38 Error: Fatal Error (1): Call to a member function image() on a non-object in [/Applications/MAMP/htdocs/Djinn/app/View/Elements/menu.ctp, line 69]
+2012-07-29 16:00:38 Error: [FatalErrorException] Call to a member function image() on a non-object
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 69)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 69, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 69, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 16:00:38 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-29 16:00:38 Error: Fatal Error (1): Call to a member function image() on a non-object in [/Applications/MAMP/htdocs/Djinn/app/View/Elements/menu.ctp, line 69]
+2012-07-29 16:00:38 Error: [FatalErrorException] Call to a member function image() on a non-object
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 69)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 69, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 69, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 16:00:40 Error: Fatal Error (1): Call to a member function image() on a non-object in [/Applications/MAMP/htdocs/Djinn/app/View/Elements/menu.ctp, line 69]
+2012-07-29 16:00:40 Error: [FatalErrorException] Call to a member function image() on a non-object
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 69)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 69, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 69, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 16:00:40 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-29 16:00:40 Error: Fatal Error (1): Call to a member function image() on a non-object in [/Applications/MAMP/htdocs/Djinn/app/View/Elements/menu.ctp, line 69]
+2012-07-29 16:00:40 Error: [FatalErrorException] Call to a member function image() on a non-object
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 69)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 69, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 69, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 16:01:52 Error: Fatal Error (1): Call to a member function image() on a non-object in [/Applications/MAMP/htdocs/Djinn/app/View/Elements/menu.ctp, line 69]
+2012-07-29 16:01:52 Error: [FatalErrorException] Call to a member function image() on a non-object
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 69)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 69, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 69, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 16:02:21 Error: Fatal Error (1): Call to a member function image() on a non-object in [/Applications/MAMP/htdocs/Djinn/app/View/Elements/menu.ctp, line 69]
+2012-07-29 16:02:21 Error: [FatalErrorException] Call to a member function image() on a non-object
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 69)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 69, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 69, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 16:03:07 Error: Fatal Error (1): Call to a member function image() on a non-object in [/Applications/MAMP/htdocs/Djinn/app/View/Elements/menu.ctp, line 69]
+2012-07-29 16:03:07 Error: [FatalErrorException] Call to a member function image() on a non-object
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 69)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 69, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 69, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

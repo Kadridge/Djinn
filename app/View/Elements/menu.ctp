@@ -66,8 +66,8 @@
                 <?php echo $this->Form->input('User.password', array('class'=>"span 3",'label'=>"Mot de passe"));  ?>
                     <?php echo $this->Form->end('Se connecter');  ?>
                 <div class="btn-group">
-                    <button class="btn btn-primary"><img src="img/facebook-white.png"> Facebook</button>
-                    <button class="btn btn-info"><img src="img/twitter-white.png"> Twitter</button>
+                    <button class="btn btn-primary"><?php echo $this->Html->image('facebook-white.png', array('alt' => 'facebook')); ?> Facebook</button>
+                    <button class="btn btn-info"><?php echo $this->Html->image('twitter-white.png', array('alt' => 'twitter')); ?> Twitter</button>
                 </div>
                 <?php echo $this->Html->link("Mot de passe oublié ?", array('action'=>'password', 'controller'=>'users'));  ?>
                 
