@@ -7,10 +7,6 @@
 // GLOBAL VALUES
 // --------------------------------------------------
 
-// Base URL
-//
-@base-url: "file:///Users/gigool/Downloads/Djinn/index.html";
-
 
 // Grays
 // -------------------------
@@ -18,22 +14,23 @@
 @grayDarker:            #222;
 @grayDark:              #333;
 @gray:                  #555;
-@grayLight:             #999;
-@grayLighter:           #eee;
+@grayLight:             #DBDBDB;
+@grayLighter:           #EAEAEA;
 @white:                 #fff;
 
 
 // Accent colors
 // -------------------------
-@blue:                  #049cdb;
-@blueDark:              #0064cd;
-@green:                 #46a546;
-@red:                   #9d261d;
-@yellow:                #ffc40d;
+@blue:                  #5d95c8;
+@blueDark:              #396a97;
+@green:                 #16984e;
+@greenLight:			#48b34b;
+@red:                   #A2232F;
+@yellow:                #F3A811;
 @orange:                #f89406;
 @pink:                  #c3325f;
 @purple:                #7a43b6;
-
+@brown: 				#9D6C28;
 
 // Scaffolding
 // -------------------------
@@ -43,13 +40,13 @@
 
 // Links
 // -------------------------
-@linkColor:             #08c;
-@linkColorHover:        darken(@linkColor, 15%);
+@linkColor:             @blue;
+@linkColorHover:        @blueDark;
 
 
 // Typography
 // -------------------------
-@sansFontFamily:        "Helvetica Neue", Helvetica, Arial, sans-serif;
+@sansFontFamily:        Muli, "Helvetica Neue", Helvetica, Arial, sans-serif;
 @serifFontFamily:       Georgia, "Times New Roman", Times, serif;
 @monoFontFamily:        Menlo, Monaco, Consolas, "Courier New", monospace;
 
@@ -58,8 +55,8 @@
 @baseLineHeight:        18px;
 @altFontFamily:         @serifFontFamily;
 
-@headingsFontFamily:    inherit; // empty to use BS default, @baseFontFamily
-@headingsFontWeight:    bold;    // instead of browser default, bold
+@headingsFontFamily:    Open Sans Condensed; // empty to use BS default, @baseFontFamily
+@headingsFontWeight:    normal;    // instead of browser default, bold
 @headingsColor:         inherit; // empty to use BS default, @textColor
 
 
@@ -73,7 +70,7 @@
 
 // Buttons
 // -------------------------
-@btnBackground:                     @white;
+@btnBackground:                     @grayLighter;
 @btnBackgroundHighlight:            darken(@white, 10%);
 @btnBorder:                         #ccc;
 
@@ -149,7 +146,7 @@
 
 // Navbar
 // -------------------------
-@navbarHeight:                    40px;
+@navbarHeight:                    48px;
 @navbarBackground:                @grayDarker;
 @navbarBackgroundHighlight:       @grayDark;
 

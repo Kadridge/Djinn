@@ -27,7 +27,12 @@ class PostsController extends AppController {
         
     function index(){
         $this->Post->recursive = 0;
-            $d['posts'] = $this->Paginate('Post', array('type'=>'post', 'online'=>1, 'Post.created <= NOW()'));
+        
+        $this->paginate = array(
+        'conditions' => array('Post.type' => 'post','Post.online'=>1, 'Post.created <= NOW()' ),
+        'limit' => 4
+    );
+    $d['posts'] = $this->paginate('Post');
             $this->set($d);
         }
         

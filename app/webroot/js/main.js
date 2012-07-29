@@ -1,45 +1,40 @@
-$(document).ready(function(){
+jQuery(function($){
 
-//Galerie Masory
-//
-
-	$(window).load(function(){
-	    $('#containermasory').masonry({
-	      itemSelector: '.box',
-	      isAnimated:true,
-	      isFitWidth:true
-	    });
+	//FACEBOOK TWITTER TRIANGLE SWAG
+	//
+	$("#facebook-twitter").click(function(event){
+	    if(event.offsetX>event.offsetY){
+	        parent.window.location="http://bing.com";
+	    }else{
+	        parent.window.location = "http://google.com";   
+	    }
 	});
 
-
-//Affichage des sous menus du bootstrap Twitter
-//
+	//Affichage des sous menus du bootstrap Twitter
+	//
 	$('.dropdown-toggle').dropdown();
 
-
-//Scroll To Top
-//
-
-	$("#back-top").hide();
-	
-	// fade in #back-top
-	$(function () {
-		$(window).scroll(function () {
-			if ($(this).scrollTop() > 100) {
-				$('#back-top').fadeIn();
-			} else {
-				$('#back-top').fadeOut();
-			}
-		});
-
-		// scroll body to 0px on click
-		$('#back-top a').click(function () {
-			$('body,html').animate({
-				scrollTop: 0
-			}, 800);
-			return false;
-		});
+	//Slider Home page 
+	//
+	$('#slider').canHazSlider({
+		animSpeed:600,
+		pauseTime:10000,
+		direction:'vertical',
+		navControllers:true,
+		arrayControllers:false
 	});
 
-//End jQuery
+	//Animation du picto de la fleche dans la mise en avant de la home page
+	//
+
+	$('#hero').mouseenter(function(){
+		$("#more-info").animate({marginLeft:'-=12'}, 200),
+		$("#more-info").animate({marginLeft:'+=12'}, 200);
+	});
+
+	//Tipsy - Infobulle
+	//
+	$('a[rel=tipsy]').tooltip()
+
+//END JQUERY
 });

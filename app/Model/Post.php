@@ -11,8 +11,9 @@ class Post extends AppModel{
         'zoomCrop' => true,
         'thumbsizes' => array(
         'normal' => array('width' => 400, 'height' => 300),
-        'small' => array('width' => 80, 'height' => 80,'maxDimension' => '', 'thumbnailQuality' => 100, 'zoomCrop' => true),
-        'vignette' => array('width' => 100, 'height' => 100,'maxDimension' => '', 'thumbnailQuality' => 100, 'zoomCrop' => true),  
+        'bigWishPicture' => array('width' => 220, 'height' => 220,'maxDimension' => '', 'thumbnailQuality' => 100, 'zoomCrop' => true),
+        'wishPicture' => array('width' => 200, 'height' => 200,'maxDimension' => '', 'thumbnailQuality' => 100, 'zoomCrop' => true), 
+        'mozaic' => array('width' => 120, 'height' => 120,'maxDimension' => '', 'thumbnailQuality' => 100, 'zoomCrop' => true)
         ),
         'default' => 'default.jpg'
     ) 

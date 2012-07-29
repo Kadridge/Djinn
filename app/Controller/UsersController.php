@@ -81,7 +81,7 @@ class UsersController extends AppController{
     function show($id){
 
         $user = $this->User->find('first', array('conditions'=>array('User.id'=>$id)));
-        
+        $d['posts'] = $this->User->Post->find('all', array('conditions'=>array('User.id'=>$id)));
         $d['user'] = $user;
         $this->set($d);
     }

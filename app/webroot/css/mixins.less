@@ -450,7 +450,7 @@
 // ------------------
 .buttonBackground(@startColor, @endColor) {
   // gradientBar will set the background to a pleasing blend of these, to support IE<=9
-  .gradientBar(@startColor, @endColor);
+  background:@startColor;
   *background-color: @endColor; /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   .reset-filter();
 
@@ -613,9 +613,6 @@
       [class*="span"]:first-child {
         margin-left: 0;
       }
-      [class*="span"]:nth-child(3n+1) {
-        margin-left: 0;
-      }      
 
       // generate .spanX
       .spanX (@gridColumns);

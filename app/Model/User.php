@@ -46,8 +46,11 @@ class User extends AppModel{
         'zoomCrop' => true,
         'thumbsizes' => array(
         'normal' => array('width' => 400, 'height' => 300),
-        'small' => array('width' => 50, 'height' => 50,'maxDimension' => '', 'thumbnailQuality' => 100, 'zoomCrop' => true),
-        'vignette' => array('width' => 100, 'height' => 100,'maxDimension' => '', 'thumbnailQuality' => 100, 'zoomCrop' => true),  
+        'small' => array('width' => 22, 'height' => 22,'maxDimension' => '', 'thumbnailQuality' => 100, 'zoomCrop' => true),
+        'bestDjinn' => array('width' => 98, 'height' => 98,'maxDimension' => '', 'thumbnailQuality' => 100, 'zoomCrop' => true),  
+        'profile' => array('width' => 46, 'height' => 46,'maxDimension' => '', 'thumbnailQuality' => 100, 'zoomCrop' => true),
+        'profileBig' => array('width' => 220, 'height' => 220,'maxDimension' => '', 'thumbnailQuality' => 100, 'zoomCrop' => true),
+        'dropdown' => array('width' => 32, 'height' => 32,'maxDimension' => '', 'thumbnailQuality' => 100, 'zoomCrop' => true)
         )
     ) 
     ));

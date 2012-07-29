@@ -1,5 +1,5 @@
 <div class="page-header">
-    <h1>Editer une page</h1>
+    <h1>Editer une catégorie</h1>
 </div>
 
 <?php echo $this->Form->create('Category'); ?>

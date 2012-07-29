@@ -1,38 +1,70 @@
+<?php debug($this->Session->read()); ?>   
 <?php $pages = $this->requestAction(array('controller'=>'pages','action'=>'menu')); ?>   
-<div class="navbar navbar-fixed-top">
-  <div class="navbar-inner">
-    <div class="container-fluid">
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+            
+          <?php echo $this->Html->image("logo.png", array(
+               "alt" => "Logo Djinn", "class"=>"brand",
+                'url' => array('controller' => 'posts', 'action' => 'index')
+                )); ?>
 
-      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </a>
-
-      <a class="brand" href="#"><?php echo $this->Html->image('logo.png'); ?></a>
-<div class="nav-collapse">
-        <ul class="nav">
-            <?php foreach($pages as $k=>$v): $v = current($v); ?>
-            <li><?php echo $this->Html->link($v['name'], $v['link']); ?></li>
-            <?php endforeach; ?>
-            <li><?php echo $this->Html->link('News', array('controller'=>'posts','action'=>'index')); ?></li>
-        </ul>
-        <ul class="nav pull-right">
-          <?php if(AuthComponent::user('id')): ?>
+          <div class="nav-collapse">
+            <ul class="nav">
+             <?php foreach($pages as $k=>$v): $v = current($v); ?>
+              <li><?php echo $this->Html->link($v['name'], $v['link']); ?></li>
+               <?php endforeach; ?>
+                <li></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">A propos <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">A propos</a></li>
+                  <li><a href="#">L'équipe</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Le blog</a></li>
+                  <li><a href="#">Le forum</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Copyright</a></li>
+                  <li><a href="#">Condition</a></li>
+                  <li><a href="#">Confidentialité</a></li>
+                </ul>
+              </li>            
+            <li>
+            <form class="navbar-search" action="">
+              <input type="text" class="search-query span3" placeholder="Rechercher">
+              <span><i class="icon-search icon-white search-icon "></i></span>
+            </form>
+            </li>
+             <?php if(AuthComponent::user('id')): ?>
             <?php if($this->Session->read('Auth.User.role') == 'admin'): ?>
                 <li id="login"><?php echo $this->Html->link("Admin", '/admin/pages'); ?></li>
            <?php endif; ?>
-            <li id="login"><?php echo $this->Html->link("Se déconnecter", array('action'=>'logout', 'controller'=>'users')); ?></li>
-            <li id="login"><?php echo $this->Html->link("Mon compte", array('action'=>'show', 'controller'=>'users', $this->Session->read('Auth.User.id'))); ?></li>
+            <li class="dropdown connect">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="nav-me"></i> <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li class="current-user"><a href="<?php echo $this->Html->url(array("controller" => "users","action" => "show", $this->Session->read('Auth.User.id'))); ?>"><img src="/Djinn/<?php echo $this->Session->read('Auth.User.dir'); ?>/thumb/dropdown/<?php echo $this->Session->read('Auth.User.filename'); ?>"><span><?php echo $this->Session->read('Auth.User.username'); ?> <small>Voir ma page profil</small></span></a></li>
+                <li class="divider"></li>
+                <li><a href="#"><i class="icon-star"></i> Mes souhaits</a></li>
+                <li><a href="#"><i class="icon-envelope"></i> Messages priv√©s</a></li>
+                <li class="divider"></li>
+                <li><a href="#"><i class="icon-cog"></i> Param√®tres</a></li>
+                <li><a href="#"><i class=" icon-question-sign"></i> Aide</a></li>
+                <li class="divider"></li>
+                <li><a href="<?php echo $this->Html->url(array('action'=>'logout', 'controller'=>'users')); ?>"><i class="icon-remove-sign"></i> Déconnexion</a></li>
+              </ul>
+            </li>
           <?php else: ?>
           <li id="login"><?php echo $this->Html->link("Se connecter", array('action'=>'login', 'controller'=>'users')); ?></li>
           <li id="login"><?php echo $this->Html->link("S'inscrire", array('action'=>'signup', 'controller'=>'users')); ?></li>
           <?php endif; ?>
-        </ul>         
-        <div class="input-prepend pull-right" id="research">
-              <span class="add-on"><i class="icon-search"></i></span><input placeholder="Rechercher" class="span3" id="inputIcon" type="text">
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
         </div>
-      </div><!--/.nav-collapse -->
-          </div>
-  </div>
-</div>
+      </div>
+    </div>

@@ -2,7 +2,7 @@
     <h1>Gérer les articles</h1>
 </div>
 
-<p><?php echo $this->Html->link("Ajouter un article", array('action'=>'edit'), array('class'=>'btn btn-primary')); ?></p>
+<p><?php echo $this->Html->link("Ajouter un souhait", array('action'=>'edit'), array('class'=>'btn btn-primary')); ?></p>
 
 <table class="table table-striped">
     <tr>
