@@ -8,6 +8,7 @@
             <p>Commencez des maintenant √† r√©aliser vos souhaits les plus chers en vous inscrivant sur Djinn.</p>
           </header>
           <p class="align-center">
+            <a href="<?php echo $this->Html->url(array('action'=>'facebook')); ?>" class="facebookConnect">Inscrivez vous avec Facebook</a>
             <a class="btn btn-primary" href="#"><img src="/Djinn/img/facebook-white.png"> Inscrivez vous avec Facebook</a>
             <a class="btn btn-info" href="#"><img src="/Djinn/img/twitter-white.png"> Inscrivez-vous avec Twitter</a>
           </p>

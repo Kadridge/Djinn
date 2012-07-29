@@ -2,6 +2,60 @@
 class UsersController extends AppController{
     
     
+    function facebook(){
+        
+        $this->Session->read();
+        require APPLIBS.'Facebook'.DS.'facebook.php';
+        $facebook = new Facebook(array(
+           'appId' => '302516936513484',
+            'secret' => 'daca2ecdcfda13fac0814428f0b36cbd'
+        ));
+        $user = $facebook->getUser();
+        if($user){
+            try{
+                $infos = $facebook->api('/me');
+                
+                $u = $this->User->find('first', array(
+                    'conditions'=> array(
+                        'facebook_id'=>$infos['id']
+                        )));
+                if(!empty($u)){
+                    $this->Auth->login($u['User']);
+                    $this->redirect('/');
+                }
+                
+                if($this->request->is('post')){
+                    $data = $this->request->data['User'];
+                    $d = array(
+                        'username' => $data['username'],
+                        'facebook_id' => $infos['id'],
+                        'mail' => $infos['email'],
+                        'active' => 1,
+                        'firstname' => $infos['first_name'],
+                        'lastname' => $infos['last_name']
+                    );
+                    if($this->User->save($d)){
+                        $this->Session->setFlash('Vous êtes bien inscrit', 'notif');
+                        $u = $this->User->read();
+                        $this->Auth->login($u['User']);
+                        $this->redirect('/');
+                    }else{
+                        $this->Session->setFlash('Votre pseudo est déjà utilisé', 'notif', array('type'=>'error'));
+                    }
+                    $d = array();
+                    $d['user'] = $infos;
+                    $this->set($d);
+                    debug($d);
+                }
+            }catch (FacebookApiException $e){
+            $this->Session->setFlash('Il se passe des choses pas normal ici', 'notif', array('type'=>'error'));
+            }
+        }else{
+            $this->Session->setFlash('Erreur identification facebook', 'notif', array('type'=>'error'));
+            $this->redirect(array('action'=>'login', 'controller'=>'users'));
+        }
+    }
+    
     function login(){
         if($this->request->is('post'))
             if($this->Auth->login()){

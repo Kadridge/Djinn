@@ -16,6 +16,7 @@
   </head>
 
   <body>
+      <div id="fb-root"></div>
     <?php echo $this->element('menu'); ?>
 
     <?php echo $this->Session->flash(); ?>
@@ -38,6 +39,7 @@
     <?php echo $this->Html->script('bootstrap-dropdown'); ?>
     <?php echo $this->Html->script('bootstrap-tooltip'); ?>
     <?php echo $this->Html->script('canHazSlider'); ?>
-    <?php echo $this->Html->script('main'); ?>    
+    <?php echo $this->Html->script('main'); ?>   
+    <?php echo $this->Html->script('facebook'); ?>  
   </body>
 </html>

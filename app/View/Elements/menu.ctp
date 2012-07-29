@@ -66,6 +66,7 @@
                 <?php echo $this->Form->input('User.password', array('class'=>"span 3",'label'=>"Mot de passe"));  ?>
                     <?php echo $this->Form->end('Se connecter');  ?>
                 <div class="btn-group">
+                    <a href="<?php echo $this->Html->url(array('action'=>'facebook', 'controller'=>'users')); ?>" class="facebookConnect">Se connecter avec facebook</a>
                     <button class="btn btn-primary"><?php echo $this->Html->image('facebook-white.png', array('alt' => 'facebook')); ?> Facebook</button>
                     <button class="btn btn-info"><?php echo $this->Html->image('twitter-white.png', array('alt' => 'twitter')); ?> Twitter</button>
                 </div>

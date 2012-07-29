@@ -29,6 +29,7 @@ class User extends AppModel{
       ),   
       'password' => array(
           'rule'        => 'notEmpty',
+          'required'    => false,
           'message'     => "Vous ne pouvez pas enregistrer de mot de passe",
           'allowEmpty'  => false
       )  
