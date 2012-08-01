@@ -22,8 +22,7 @@ class UsersController extends AppController{
                 if(!empty($u)){
                     $this->Auth->login($u['User']);
                     $this->redirect('/');
-                }
-                
+                }                               
                 if($this->request->is('post')){
                     $data = $this->request->data['User'];
                     $d = array(
@@ -42,10 +41,8 @@ class UsersController extends AppController{
                     }else{
                         $this->Session->setFlash('Votre pseudo est déjà utilisé', 'notif', array('type'=>'error'));
                     }
-                    $d = array();
                     $d['user'] = $infos;
                     $this->set($d);
-                    debug($d);
                 }
             }catch (FacebookApiException $e){
             $this->Session->setFlash('Il se passe des choses pas normal ici', 'notif', array('type'=>'error'));
