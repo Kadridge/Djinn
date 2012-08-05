@@ -3,6 +3,7 @@ class Post extends AppModel{
     
     var $name = 'Post';
     var $actsAs = array(
+        'Containable',
     'MeioUpload.MeioUpload' => array(
     'filename' => array(        
         'create_directory' => true,
@@ -18,11 +19,16 @@ class Post extends AppModel{
         'default' => 'default.jpg'
     ) 
     ));
-    public $hasMany = array(
+    
+public $hasAndBelongsToMany = array('Tag');
+
+
+public $hasMany = array(
         'Media' => array(
             'dependent'=> true
         ),
-        'Comment'
+        'Comment',
+        'PostTag'
         );
         
 public $belongsTo = array(
@@ -32,7 +38,7 @@ public $belongsTo = array(
         )
     ),
     'User' => array(
-        'className'    => 'User'
+        'fields'    => array('id','username', 'filename', 'dir')
     )
 );
 
@@ -85,6 +91,33 @@ public $belongsTo = array(
             $this->data['Post']['slug'] = strtolower(Inflector::slug($this->data['Post']['name']
                     ,'-'));
         return TRUE;
+    }
+    
+    public function afterSave() {
+        
+        if(!empty($this->data['Post']['tags'])){
+            $tags = explode(',', $this->data['Post']['tags']);
+            foreach ($tags as $tag) {
+                $tag = trim($tag);
+                if(!empty($tag)){
+                    $d = $this->Tag->findByName($tag);
+                    if(!empty($d)){
+                        $this->Tag->id = $d['Tag']['id'];
+                    }else{
+                        $this->Tag->create();
+                        $this->Tag->save(array(
+                            'name' => $tag
+                        ));
+                    }
+                    $this->PostTag->create();
+                    $this->PostTag->save(array(
+                        'post_id' =>  $this->id,
+                        'tag_id'=>  $this->Tag->id
+                    ));
+                }
+            }
+            return true;
+        }
     }
 }
 ?>

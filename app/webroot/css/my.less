@@ -41,14 +41,27 @@ header.title-bloc .icon {
   color: @dropdownLinkColor;
 }
 
+/***** Nav Bar fixed *****/
+//
+
+.subnav-fixed {
+	width:100%;
+	z-index:100;
+	background:transparent;
+}
+
+.all-wish  .subnav-fixed .nav-pills {
+	width: 940px;
+	margin: 0 auto;
+}
 /***** FOOTER *****/
 //
 
 #footer{
 		background:@white;
 		border-top:1px solid @grayLight;
-		padding: 10px 0;
 		margin-top:40px;
+		height:48px;
 
 }
 #footer ul {
@@ -57,6 +70,8 @@ header.title-bloc .icon {
 	margin: 0;
 	margin-left:-10px;
 	float:left;
+	height:40px;
+	margin-top:4px;
 }
 #footer ul li {
 	list-style-image: none;
@@ -65,14 +80,70 @@ header.title-bloc .icon {
 	white-space: nowrap;
 	display: inline;
 	float: left;
-	padding-left: 10px;
-	padding-right: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
-#legal {
+
+#footer li a {
+	line-height:40px;
+	display:block;
+}
+
+#facebook-footer a{
+	background-color : @blueDark;
+	width:40px;
+	height:40px;
+	display:block;
+	background-image : url('img/facebook.png');
+	background-repeat : no-repeat;
+	background-position: center;
+}
+
+#footer ul li#facebook-footer {
+	margin-right:2px;
+}
+
+#twitter-footer a{
+	display:block;
+	background-color : @blue;
+	width:40px;
+	height:40px;
+	background-image : url('img/twitter.png');
+	background-repeat : no-repeat;
+	background-position: center;
+}
+
+#footer ul li#twitter-footer {
+	margin-left:2px;
+	margin-right:2px;
+}
+
+#message-footer a{
+	display:block;
+	background-color : @yellow;
+	width:40px;
+	height:40px;
+	background-image : url('img/message.png');
+	background-repeat : no-repeat;
+	background-position: center;
+}
+
+#footer ul li#message-footer {
+	margin-left:2px;
+	margin-right:0;
+}
+
+#footer ul#social-footer {
 	float:right;
+}
+
+#legal {
 	color:@gray;
 	text-shadow:0 1px 0 #FFF0D8;
+	line-height:40px;
 }
+
+
 /***** HEADER *****/
 //
 
@@ -80,7 +151,7 @@ header.title-bloc .icon {
 	display:block;
 	width:24px;
 	height:24px;
-	background:#16984e;
+	background:@blue;
 	position:absolute;
 	top: 1px;
 	right: 1px;
@@ -90,22 +161,15 @@ header.title-bloc .icon {
 	margin-top:4px;
 }
 a#connexion {
-	border:none;
-	color:@blue;
-	margin-left:0;	
 }
 
 a#inscription {
-	border:none;
-	color:@blueDark;
-	margin-left:0;
 }
 
 .nav-collapse .connect {
 	background:url('img/profile.png');
 	background-repeat: no-repeat;
-	background-position-y : center;
-	background-position-x: 15px;
+	background-position : 15px 12px;
 	width:80px;
 	height:48px;
 	background-color:@greenLight;
@@ -165,9 +229,9 @@ font-weight: normal;
 	position: absolute;
 	height:80px;
 	width:440px;
-	background:@green;
+	background:@purple;
 	top:60px;
-	left:1140px;
+	left:1080px;
 	color:@white;
 	padding:20px;
 	z-index:10000;
@@ -175,10 +239,13 @@ font-weight: normal;
 	cursor : pointer;
 }
 #hero h1 {
-	font-size:3em;
+	font-size:3.4em;
+	font-family: 'Pacifico', cursive;
+  	text-shadow: rgba(0,0,0,0.3) -1px 0, rgba(0,0,0,0.1) 0 -1px, rgba(255,255,255,0.3) 0 1px, rgba(0,0,0,0.1) -1px -2px;
+
 }
 #hero p {
-	font-size:1.2em;
+	font-size:1.3em;
 	margin:20px 0 0 0;
 }
 #hero section {
@@ -326,6 +393,10 @@ font-weight: normal;
 	background-image : url('img/time.png');
 }
 
+#recent-wish .title-bloc h2:hover {
+	color:@blueDark;
+}
+
 .box {
 	width:200px;
 	.border-radius(8px);
@@ -337,10 +408,13 @@ font-weight: normal;
 }
 .box:hover .img-bloc img, .box:focus .img-bloc img        {opacity:0.8}
 .box .title {
-	display:block;
+	display: table-cell;
+	vertical-align:middle;
+	width:200px;
 	background:@blue;
 	color:@white;
 	.border-radius(5px 5px 0 0);
+	height:40px;
 }
 
 .box .title h3 {
@@ -376,7 +450,7 @@ font-weight: normal;
 
     .img-bloc                 {position:relative;}
  		.img-bloc img {background:@black}
-      .help-wish              {height:20px;text-align:center;z-index:1000;position:absolute;top:10px;left:10px;background-color:rgba(255,255,255,0.6);.border-radius(5px);padding:4px;display:none;cursor:pointer;background-clip: padding-box;
+      .help-wish              {height:20px;text-align:center;z-index:10;position:absolute;top:10px;left:10px;background-color:rgba(255,255,255,0.6);.border-radius(5px);padding:4px;display:none;cursor:pointer;background-clip: padding-box;
       white-space: nowrap;
       width: 0;
       padding: 7px 0 7px 33px;
@@ -387,7 +461,7 @@ font-weight: normal;
         .box:focus .help-wish, .box:hover .help-wish    {display:block;}
         .help-wish:hover,.help-wish:focus               {background-color:@white;opacity: 1;}
 
-      .like-wish              {height:20px;text-align:center;z-index:1000;position:absolute;top:10px;left:49px;background-color:rgba(255,255,255,0.6);.border-radius(5px);padding:4px;display:none;cursor:pointer;background-clip: padding-box;
+      .like-wish              {height:20px;text-align:center;z-index:10;position:absolute;top:10px;left:49px;background-color:rgba(255,255,255,0.6);.border-radius(5px);padding:4px;display:none;cursor:pointer;background-clip: padding-box;
       white-space: nowrap;
       width: 0;
       padding: 7px 0 7px 33px;
@@ -398,7 +472,7 @@ font-weight: normal;
         .box:focus .like-wish, .box:hover .like-wish    {display:block;}
         .like-wish:hover,.like-wish:focus               {background-color:@white;opacity: 1;}
 
-      .comment-wish           {height:20px;text-align:center;z-index:1000;position:absolute;top:10px;left:88px;background-color:rgba(255,255,255,0.6);.border-radius(5px);padding:4px;display:none;cursor:pointer;background-clip: padding-box;
+      .comment-wish           {height:20px;text-align:center;z-index:10;position:absolute;top:10px;left:88px;background-color:rgba(255,255,255,0.6);.border-radius(5px);padding:4px;display:none;cursor:pointer;background-clip: padding-box;
       white-space: nowrap;
       width: 0;
       padding: 7px 0 7px 33px;
@@ -414,6 +488,10 @@ font-weight: normal;
 #popular-wish .title-bloc .icon {
 	background-color:@green;
 	background-image : url('img/popular.png');
+}
+
+#popular-wish .title-bloc h2:hover, #popular-wish .title-bloc h2:hover{
+	color : @green;
 }
 
 #popular-wish .box .title {
@@ -530,6 +608,7 @@ height: 100%;
 backface-visibility: hidden;
 }
 .face.back {
+color:@grayDark;
 display: block;
 -webkit-transform: rotateY(180deg);
 -webkit-box-sizing: border-box;
@@ -762,6 +841,35 @@ ol.commentlist li {
 	padding-right:10px;
 }
 
+.share .title-bloc .icon {
+	background:@green;
+	background-image:url('img/popular.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.share ul {
+	background:@white;
+	margin:0;
+	padding : 20px 20px 10px 20px;
+}
+.share li {
+	list-style : none;
+	height:20px !important;
+	margin-bottom:10px;
+}
+.share li i {
+padding-right: 10px;
+}
+li #share-form-url {
+margin: 0;
+padding: 0;
+border: none;
+background: none;
+-webkit-appearance: none;
+cursor: auto;
+box-shadow:none;
+width:auto;
+}
 .tags .title-bloc .icon {
 	background:@red;
 	background-image:url('img/tag.png');
@@ -797,4 +905,101 @@ ol.commentlist li {
 
 .image-wish img {
 	border: 5px solid @grayLight;
+}
+
+/***** Tous les souhaits *****/
+
+.all-wish .row .span12 {
+	background: @white;
+}
+
+.all-wish .nav-pills a.dropdown-toggle {
+	color:@white;
+}
+.all-wish .nav-pills {
+	margin:0
+}
+
+.all-wish .nav-pills i {
+	margin-right:10px;
+}
+
+.all-wish .nav-pills .caret {
+	vertical-align:middle;
+	border-top: 4px solid @white;
+	margin-left:10px;
+	opacity:1;
+}
+
+.all-wish .nav-pills li a.dropdown-toggle {
+	background-color:@blueDark;
+	border-right:1px solid @grayLight;
+	padding-top:0;
+	padding-bottom:0;
+}
+
+.all-wish .nav-pills li:nth-child(3) a.dropdown-toggle {
+	background: url('img/calendar.png') no-repeat;
+	background-position:center; 
+	width:60px;
+	text-align:right;
+	background-color:@blueDark;
+}
+
+.all-wish .nav-pills li:nth-child(4) a.dropdown-toggle {
+	background: url('img/france.png') no-repeat;
+	background-position:center; 
+	width:60px;
+	text-align:right;
+	background-color:@blueDark;
+	border:0;
+}
+.all-wish .box {
+	margin-bottom:20px;
+}
+
+.all-wish .box .title {
+	background:@gray;
+}
+
+.all-wish .nav-pills form {
+	padding:0px;
+	margin:20px
+}
+
+.all-wish .container-wish {margin:20px 0 0px 20px}
+
+
+/**** Page 404 ****/
+
+img#bg {
+width: 100%;
+height: 100%;
+z-index: 1;
+}
+
+div.dialog {
+position: absolute;
+top: 50px;
+width: 100%;
+text-align: center;
+z-index: 2;
+}
+
+.dialog h1 {
+	font-family: 'Pacifico', cursive;
+	color:@white;
+	margin-bottom:20px;
+	text-shadow: 0px 0px 24px rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3) -1px 0, rgba(0, 0, 0, 0.1) 0 -1px, rgba(255, 255, 255, 0.3) 0 1px, rgba(0, 0, 0, 0.1) -1px -2px;
+
+}
+
+.dialog p {
+	color:@black;
+	font-size:1.4em;
+}
+
+.dialog p a {
+	color:@black;
+	text-decoration:underline;
 }

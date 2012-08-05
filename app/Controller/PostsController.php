@@ -12,6 +12,22 @@ class PostsController extends AppController {
             return $pages;
         }
         
+        function tag($name){
+            $this->loadModel('PostTag');
+            $this->PostTag->contain('Tag', 'Post');
+            $posts = $this->Paginate('PostTag', array(
+                'Tag.name'=>$name,
+                'Post.type'=> 'post',
+                'Post.online'=>1,
+                'Post.created <= Now()'
+                ));
+            $posts_ids = Set::Combine($posts, '{n}.PostTag.post_id', '{n}.PostTag.post_id');
+            $d['posts'] = $this->Post->find('all', array(
+               'conditions' => array('Post.id'=>$posts_ids) 
+            ));
+            $this->set($d);
+        }
+        
         function category($category){
             $cat = $this->Post->Category->find('first', array(
                 'conditions' => array(
@@ -26,7 +42,7 @@ class PostsController extends AppController {
         }
         
     function index(){
-        $this->Post->recursive = 0;
+        $this->Post->contain('User', 'Category');
         
         $this->paginate = array(
         'conditions' => array('Post.type' => 'post','Post.online'=>1, 'Post.created <= NOW()' ),
@@ -94,6 +110,10 @@ class PostsController extends AppController {
             $this->request->data = $this->Post->getDraft('post');
         }
         $d['categories'] = $this->Post->Category->find('list');
+        $this->Post->PostTag->contain('Tag');
+        $d['tags'] = $this->Post->PostTag->find('all', array(
+            'conditions'=>array('PostTag.post_id'=>$id)
+        ));
         $this->set($d);
 
     }
@@ -101,6 +121,12 @@ class PostsController extends AppController {
     function admin_delete($id){
         $this->Session->setFlash('L\'article a bien été supprimée', 'notif');
         $this->Post->delete($id);
+        $this->redirect($this->referer());
+    }
+    
+    function admin_delTag($id){
+        $this->Post->PostTag->delete($id);
+        $this->Session->setFlash('Le tag a bien été supprimée', 'notif');
         $this->redirect($this->referer());
     }
 }

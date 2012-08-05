@@ -70,8 +70,10 @@
   --><h2>Tags</h2>
           </header>
           <p>
-            <a href="" rel="tag" class="label">Site web</a> 
-            <a href="" rel="tag" class="label">Internet</a> 
+              
+            <?php foreach ($post['Tag'] as $k => $v): ?>
+            <span class="label"><?php echo $this->Html->link($v['name'], array('action'=>'tag', $v['name'])); ?></span>
+          <?php endforeach; ?>
           </p>
         </div>
       </div>

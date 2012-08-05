@@ -92,8 +92,7 @@
 .nav-pills > li > a {
   padding-right: 12px;
   padding-left: 12px;
-  margin-right: 2px;
-  line-height: 14px; // keeps the overall height an even number
+  line-height: 40px; // keeps the overall height an even number
   height:40px;
 }
 
@@ -131,9 +130,6 @@
 .nav-pills > li > a {
   padding-top: 8px;
   padding-bottom: 8px;
-  margin-top: 2px;
-  margin-bottom: 2px;
-  .border-radius(5px);
 }
 
 // Active state
@@ -189,10 +185,12 @@
 // ---------
 
 .nav-tabs .dropdown-menu {
-  .border-radius(0 0 5px 5px); // remove the top rounded corners here since there is a hard edge above the menu
+  .border-radius(0px); // remove the top rounded corners here since there is a hard edge above the menu
 }
 .nav-pills .dropdown-menu {
-  .border-radius(4px); // make rounded corners match the pills
+  .border-radius(0px); // make rounded corners match the pills
+  margin:0;
+  border:0;
 }
 
 // Default dropdown links

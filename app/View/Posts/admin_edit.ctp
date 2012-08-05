@@ -12,6 +12,14 @@
     <?php echo $this->Form->input('name', array('label'=>'Titre')); ?>
     <?php echo $this->Form->input('slug', array('label'=>'URL')); ?>
     <?php echo $this->Form->input('category_id', array('label'=>'Categorie')); ?>
+    <?php echo $this->Form->input('tags', array('label'=>'Tags (séparé par une virgule)', 'type'=>'text')); ?>
+<p>
+    <?php    foreach ($tags as $k=>$v): ?>
+        
+    <span class="label notice tag"><?php echo $v['Tag']['name']; ?> [<?php echo $this->Html->link("x", array('action'=>'delTag', $v['PostTag']['id'])); ?>]</span>
+       <?php endforeach; ?> 
+</p>
+
     <?php echo $this->Form->input('id'); ?>
     <?php echo $this->Form->input('content', array('label'=>'Contenu')); ?>
     <?php echo $this->Form->input('created', array('label'=>'Date de création', 'dateFormat'=>'DMY', 'timeFormat'=>24)); ?>
