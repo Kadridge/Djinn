@@ -48,7 +48,6 @@ class PostsController extends AppController {
         'limit' => 4
         );
         $d['posts'] = $this->paginate('Post');
-        debug($d);
         $this->set($d);
         }
         
