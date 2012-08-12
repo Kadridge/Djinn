@@ -27,7 +27,7 @@ public $hasMany = array(
         'Media' => array(
             'dependent'=> true
         ),
-        'Comment',
+        'Comment' => array('counterCache'=>true),
         'PostTag'
         );
         

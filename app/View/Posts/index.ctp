@@ -263,7 +263,7 @@
               <div class="wish-stat">
                  <div class="icons-stat">100000 <i class="icon-eye-open"></i></div><!-- whitespace
 --><div class="icons-stat">10 <i class="icon-heart"></i></div><!-- whitespace
---><div class="icons-stat">100 <i class=" icon-comment"></i></div>
+--><div class="icons-stat"><?php echo $v['Post']['comment_count']; ?><i class=" icon-comment"></i></div>
               </div>
           </div>
             <?php endforeach; ?>
@@ -297,7 +297,7 @@
               <div class="wish-stat">
                  <div class="icons-stat">100000 <i class="icon-eye-open"></i></div><!-- whitespace
 --><div class="icons-stat">10 <i class="icon-heart"></i></div><!-- whitespace
---><div class="icons-stat">100 <i class=" icon-comment"></i></div>
+--><div class="icons-stat"><?php echo $v['Post']['comment_count']; ?> <i class=" icon-comment"></i></div>
               </div>
           </div>
             <?php endforeach; ?>

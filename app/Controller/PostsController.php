@@ -42,14 +42,14 @@ class PostsController extends AppController {
         }
         
     function index(){
-        $this->Post->contain('User', 'Category');
-        
+        $this->Post->contain('User', 'Category', 'Comment');
         $this->paginate = array(
         'conditions' => array('Post.type' => 'post','Post.online'=>1, 'Post.created <= NOW()' ),
         'limit' => 4
-    );
-    $d['posts'] = $this->paginate('Post');
-            $this->set($d);
+        );
+        $d['posts'] = $this->paginate('Post');
+        debug($d);
+        $this->set($d);
         }
         
     function show($id = null, $slug = null){
@@ -74,6 +74,7 @@ class PostsController extends AppController {
             throw new NotFoundException('Aucune page ne correspond à cet ID');
         if($slug != $post['Post']['slug'])
             $this->redirect($post['Post']['link'],301);
+        $d['count'] = $this->Post->Comment->find('count');
         $d['post'] = $post;
         $this->set($d);
     }

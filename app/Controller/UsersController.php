@@ -77,24 +77,35 @@ class UsersController extends AppController{
         if($this->request->is('post')){
             $d = $this->request->data;
             $d['User']['id'] = null;
-            if(!empty($d['User']['password'])){
-                $d['User']['password'] = Security::hash($d['User']['password'],null,true);
+            if(empty($d['User']['pass1']))
+                $this->User->validationErrors['pass1'] = array("Veuillez entrer un mot de passe");
+            if(!empty($d['User']['pass1'])){
+                if($d['User']['pass1'] == $d['User']['pass2']){
+                    $d['User']['password'] = Security::hash($d['User']['pass1'],null,true);
+                    if($this->User->save($d, true, array('username', 'password', 'mail'))){
+                        $link = array('controller'=>'users', 'action'=>'activate', $this->User->id
+                                .'-'.md5($d['User']['password']));
+                        App::uses('CakeEmail', 'Network/Email');
+                        $mail = new CakeEmail();
+                        $mail->from('noreply@localhost.com')
+                            ->to($d['User']['mail'])
+                            ->subject('Test :: Inscription')
+                            ->emailFormat('html')
+                            ->template('signup')
+                            ->viewVars(array('username'=>$d['User']['username'], 'link'=>$link))
+                            ->send();
+                        $this->Session->setFlash("Votre compte a bien été créé, Un email d'activation a été envoyé", "notif");
+                        $this->request->data = array();
+                    }
+                    else {
+                    $this->Session->setFlash("Merci de corriger vos erreurs", "notif", array('type'=>'error'));
+                }
+                }  else {
+                    $this->Session->setFlash("Merci de corriger vos erreurs", "notif", array('type'=>'error'));
+                    $this->User->validationErrors['pass2'] = array("Les mots de passe ne correspondent pas");
+                }
             }
-            if($this->User->save($d, true, array('username', 'password', 'mail'))){
-                $link = array('controller'=>'users', 'action'=>'activate', $this->User->id
-                        .'-'.md5($d['User']['password']));
-                App::uses('CakeEmail', 'Network/Email');
-                $mail = new CakeEmail();
-                $mail->from('noreply@localhost.com')
-                     ->to($d['User']['mail'])
-                     ->subject('Test :: Inscription')
-                     ->emailFormat('html')
-                     ->template('signup')
-                     ->viewVars(array('username'=>$d['User']['username'], 'link'=>$link))
-                     ->send();
-                $this->Session->setFlash("Votre compte a bien été créé, Un email d'activation a été envoyé", "notif");
-                $this->request->data = array();
-            }  else {
+            else{
                 $this->Session->setFlash("Merci de corriger vos erreurs", "notif", array('type'=>'error'));
             }
         }
@@ -223,7 +234,7 @@ class UsersController extends AppController{
             }
         }elseif($id){
             $this->User->id = $id;
-            $this->request->data = $this->User->read('username, role, id');
+            $this->request->data = $this->User->read('username, role, id, active');
         }
         $d = array();
         $d['roles'] = array(

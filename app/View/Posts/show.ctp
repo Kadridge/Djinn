@@ -20,7 +20,7 @@
         <div class="wish-comments">
           <header class="title-bloc">
             <div class="icon"></div><!-- whitespace
---><h2>Commentaires (2)</h2>
+--><h2>Commentaires (<?php echo $count; ?>)</h2>
         </header>
           <div id="wish-comments-content">              
     <?php echo $this->Form->create('Comment', array('url'=>array('controller'=>'posts', 'action'=>'show', $post['Post']['id']))); ?>
@@ -39,7 +39,7 @@
                   <div class="comment-text">
                     <h4><?php echo $this->Html->link($v['User']['username'], array('controller' => 'users', 'action' => 'show', $v['User']['id'])); ?></h4>                                     
                     <p><?php echo $v['Comment']['content']; ?></p>
-                    <time datetime="2012-07-13"><small>13 juillet 2012</small></time>
+                    <time datetime="2012-07-13"><small><?php echo $v['Comment']['created']; ?></small></time>
                   </div>
                 </article>
               </li>
@@ -59,7 +59,7 @@
           </header>
           <ul>
             <li><i class="icon-heart"></i> 231 soutiens</li>
-            <li><i class="icon-comment"></i> 25 commentaires</li>
+            <li><i class="icon-comment"></i> <?php echo $count; ?>/li>
             <li><i class="icon-eye-open"></i> 2000 vues</li>
             <li><i class="icon-share"></i> http://drbl.in/eDKU</li>
           </ul>
