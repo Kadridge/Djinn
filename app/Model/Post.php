@@ -28,6 +28,7 @@ public $hasMany = array(
             'dependent'=> true
         ),
         'Comment' => array('counterCache'=>true),
+        'Like'=> array('counterCache'=>true),
         'PostTag'
         );
         

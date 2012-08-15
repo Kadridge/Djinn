@@ -42,13 +42,33 @@ class PostsController extends AppController {
         }
         
     function index(){
-        $this->Post->contain('User', 'Category', 'Comment');
+        $this->Post->contain('User', 'Category', 'Comment', 'Like');
         $this->paginate = array(
         'conditions' => array('Post.type' => 'post','Post.online'=>1, 'Post.created <= NOW()' ),
         'limit' => 4
         );
         $d['posts'] = $this->paginate('Post');
         $this->set($d);
+        }
+        
+        function like(){
+        $post_id = $this->params['pass'][0];
+        $user_id = AuthComponent::user('id');
+        $tab = array(
+            'user_id' => $user_id,
+            'post_id'=> $post_id
+        );
+        if(!empty($tab)){
+            if(AuthComponent::user('id')){
+                $this->Post->Like->save($tab);
+                $this->Post->updateAll(array('Post.like_count' => 'Post.like_count + 1'), array( 'Post.id' => $post_id));
+                $this->redirect(array('action'=>'index'));
+                $this->Session->setFlash("Votre commentaire a bien été posté", "notif");
+            }else{
+                $this->redirect(array('action'=>'index'));
+                $this->Session->setFlash("Vous devez être connecté pour poster un commentaire", "notif", array('type'=>'error'));
+            }
+        }
         }
         
     function show($id = null, $slug = null){
@@ -96,9 +116,9 @@ class PostsController extends AppController {
     
     function admin_edit($id = null){
         $user_id = $this->Auth->user('id');
-        if($this->request->is('put') ||$this->request->is('post')){
+        if($this->request->is('put') || $this->request->is('post')){
             $d = $this->request->data;
-            $d['Post']['user_id'] = $user_id;
+            $d['Post']['user_id'] = $user_id; 
             if($this->Post->save($d)){
                 $this->Session->setFlash("Le contenu a bien été modifié", "notif");
                 $this->redirect(array('action'=>'index'));

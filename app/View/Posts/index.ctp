@@ -1,5 +1,4 @@
-<?php $this->set('title_for_layout', 'Djinn'); ?>
-    
+<?php $this->set('title_for_layout', 'Djinn'); ?> 
 <div id="gallery-photos">
       <section>
         <div id="hero">
@@ -250,7 +249,7 @@
             </div>
               <div class="img-bloc">
                 <a href="" class="help-wish" rel="tipsy" data-original-title="Je réalise le souhait"><i class="icon-thumbs-up"></i></a>
-                <a href="" class="like-wish" rel="tipsy" data-original-title="Je soutiens"><i class="icon-heart"></i></a>
+                <a href="<?php echo $this->Html->url(array('action'=>'like', $v['Post']['id'])) ;?>" class="like-wish" rel="tipsy" data-original-title="Je soutiens"><i class="icon-heart"></i></a>
                 <a href="" class="comment-wish" rel="tipsy" data-original-title="Je commente"><i class="icon-comment"></i></a>
                 <a href="<?php echo $this->Html->url($v['Post']['link']) ;?>"><img src="/Djinn/<?php echo $v['Post']['dir']; ?>/thumb/wishPicture/<?php echo $v['Post']['filename']; ?>"></a>
               </div>   
@@ -262,8 +261,8 @@
               </div>         
               <div class="wish-stat">
                  <div class="icons-stat"><?php echo $v['Post']['view_count']; ?> <i class="icon-eye-open"></i></div><!-- whitespace
---><div class="icons-stat">10 <i class="icon-heart"></i></div><!-- whitespace
---><div class="icons-stat"><?php echo $v['Post']['comment_count']; ?><i class=" icon-comment"></i></div>
+              --><div class="icons-stat"><?php echo $v['Post']['like_count']; ?><i class="icon-heart"></i></div><!-- whitespace
+                --><div class="icons-stat"><?php echo $v['Post']['comment_count']; ?><i class=" icon-comment"></i></div>
               </div>
           </div>
             <?php endforeach; ?>
@@ -284,7 +283,7 @@
             </div>
               <div class="img-bloc">
                 <a href="" class="help-wish" rel="tipsy" data-original-title="Je réalise le souhait"><i class="icon-thumbs-up"></i></a>
-                <a href="" class="like-wish" rel="tipsy" data-original-title="Je soutiens"><i class="icon-heart"></i></a>
+                <a href="<?php echo $this->Html->url(array('action'=>'like', $v['Post']['id'])) ;?>" class="like-wish" rel="tipsy" data-original-title="Je soutiens"><i class="icon-heart"></i></a>
                 <a href="" class="comment-wish" rel="tipsy" data-original-title="Je commente"><i class="icon-comment"></i></a>
                 <a href="<?php echo $this->Html->url($v['Post']['link']) ;?>"><img src="/Djinn/<?php echo $v['Post']['dir']; ?>/thumb/wishPicture/<?php echo $v['Post']['filename']; ?>"></a>
               </div>   
@@ -296,8 +295,8 @@
               </div>         
               <div class="wish-stat">
                  <div class="icons-stat"><?php echo $v['Post']['view_count']; ?> <i class="icon-eye-open"></i></div><!-- whitespace
---><div class="icons-stat">10 <i class="icon-heart"></i></div><!-- whitespace
---><div class="icons-stat"><?php echo $v['Post']['comment_count']; ?> <i class=" icon-comment"></i></div>
+              --><div class="icons-stat"><?php echo $v['Post']['like_count']; ?><i class="icon-heart"></i></div><!-- whitespace
+                --><div class="icons-stat"><?php echo $v['Post']['comment_count']; ?><i class=" icon-comment"></i></div>
               </div>
           </div>
             <?php endforeach; ?>
