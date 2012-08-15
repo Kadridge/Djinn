@@ -249,4 +249,12 @@ class UsersController extends AppController{
         $this->Session->setFlash("Utilisateur supprimé", "notif");
         $this->redirect($this->referer());
     }
+    
+    function admin_search() {
+
+        $d = $this->request->data['User']; 
+       $d['users'] = $this->paginate('User', array('User.username LIKE' => "%".$d['name']."%"));
+      
+    $this->set($d);
+  }
 }

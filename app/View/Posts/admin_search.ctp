@@ -1,5 +1,5 @@
 <div class="page-header">
-    <h1>Gérer les articles</h1>
+    <h1>Résultat de la recherche des souhaits</h1>
 </div>
 
 <p><?php echo $this->Html->link("Ajouter un souhait", array('action'=>'edit'), array('class'=>'btn btn-primary')); ?></p>

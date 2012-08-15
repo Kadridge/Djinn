@@ -75,6 +75,7 @@ class PostsController extends AppController {
             $this->redirect($post['Post']['link'],301);
         $d['count'] = $this->Post->Comment->find('count');
         $d['post'] = $post;
+        $this->Post->updateAll(array( 'Post.view_count' => 'Post.view_count + 1'), array( 'Post.id' => $post['Post']['id']));
         $this->set($d);
     }
     
@@ -129,4 +130,20 @@ class PostsController extends AppController {
         $this->Session->setFlash('Le tag a bien été supprimée', 'notif');
         $this->redirect($this->referer());
     }
+        
+    function admin_search() {
+
+        $d = $this->request->data['Post']; 
+       $d['posts'] = $this->paginate('Post', array('or'=>array('Post.content LIKE' => "%".$d['name']."%", 'Post.name LIKE' => "%".$d['name']."%")));
+      
+    $this->set($d);
+  }
+  
+      function search() {
+
+        $d = $this->request->data['Post']; 
+       $d['posts'] = $this->paginate('Post', array('or'=>array('Post.content LIKE' => "%".$d['name']."%", 'Post.name LIKE' => "%".$d['name']."%")));
+      $d['users'] = $this->Post->User->find('all', array('conditions'=>array('User.username LIKE' => "%".$d['name']."%")));
+    $this->set($d);
+  }
 }

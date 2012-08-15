@@ -34,10 +34,12 @@
                 </ul>
               </li>            
             <li>
-            <form class="navbar-search" action="">
-              <input type="text" class="search-query span3" placeholder="Rechercher">
-              <span><i class="icon-search icon-white search-icon "></i></span>
-            </form>
+                                   <?php
+   echo $this->Form->create("Post",array('action' => 'search', 'class'=>'navbar-search'));
+    echo $this->Form->input("name", array('label' => false, 'class'=>'search-query span3'));
+    echo $this->Form->button('Rechercher', array('type'=>'button'));
+    echo $this->Form->end(); 
+    ?>
             </li>
              <?php if(AuthComponent::user('id')): ?>
             <?php if($this->Session->read('Auth.User.role') == 'admin'): ?>

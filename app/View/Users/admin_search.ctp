@@ -1,13 +1,9 @@
 <div class="page-header">
-    <h1>Gérer les utilisateurs</h1>
+    <h1>Résultat de la recherche des utilisateurs</h1>
 </div>
 
 <p><?php echo $this->Html->link("Ajouter un utilisateur", array('action'=>'edit'), array('class'=>'btn btn-primary')); ?></p>
-   <?php
-   echo $this->Form->create("User",array('action' => 'admin_search'));
-    echo $this->Form->input("name", array('label' => 'Rechercher un utilisateur'));
-    echo $this->Form->end("Search"); 
-    ?>
+
 <table class="table table-striped">
     <tr>
         <th>ID</th>
@@ -32,3 +28,4 @@
 </table>
 
 <?php echo $this->Paginator->numbers(); ?>
+

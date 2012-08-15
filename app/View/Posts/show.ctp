@@ -20,7 +20,7 @@
         <div class="wish-comments">
           <header class="title-bloc">
             <div class="icon"></div><!-- whitespace
---><h2>Commentaires (<?php echo $count; ?>)</h2>
+--><h2>Commentaires (<?php echo $post['Post']['comment_count']; ?>)</h2>
         </header>
           <div id="wish-comments-content">              
     <?php echo $this->Form->create('Comment', array('url'=>array('controller'=>'posts', 'action'=>'show', $post['Post']['id']))); ?>
@@ -59,8 +59,8 @@
           </header>
           <ul>
             <li><i class="icon-heart"></i> 231 soutiens</li>
-            <li><i class="icon-comment"></i> <?php echo $count; ?>/li>
-            <li><i class="icon-eye-open"></i> 2000 vues</li>
+            <li><i class="icon-comment"></i> <?php echo $post['Post']['comment_count']; ?> commentaires</li>
+            <li><i class="icon-eye-open"></i> <?php echo $post['Post']['view_count']; ?> vues</li>
             <li><i class="icon-share"></i> http://drbl.in/eDKU</li>
           </ul>
         </div>
