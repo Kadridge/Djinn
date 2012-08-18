@@ -48,6 +48,11 @@ class PostsController extends AppController {
         'limit' => 4
         );
         $d['posts'] = $this->paginate('Post');
+        $d['populars'] = $this->Post->find('all',
+                array('order'=>'Post.like_count DESC',
+                      'conditions' => array('Post.type' => 'post','Post.online'=>1),
+                      'limit' => 4)
+                );
         $this->set($d);
         }
         
@@ -58,18 +63,22 @@ class PostsController extends AppController {
             'user_id' => $user_id,
             'post_id'=> $post_id
         );
-        if(!empty($tab)){
+        $check = $this->Post->Like->find('all', array('conditions' => array('Like.user_id' => $user_id, 'Like.post_id' => $post_id)));
+        if(!empty($tab) && empty($check)){
             if(AuthComponent::user('id')){
                 $this->Post->Like->save($tab);
                 $this->Post->updateAll(array('Post.like_count' => 'Post.like_count + 1'), array( 'Post.id' => $post_id));
-                $this->redirect(array('action'=>'index'));
-                $this->Session->setFlash("Votre commentaire a bien été posté", "notif");
+                $this->Session->setFlash("Merci de votre soutient !", "notif");
+                $this->redirect($this->referer());
             }else{
-                $this->redirect(array('action'=>'index'));
-                $this->Session->setFlash("Vous devez être connecté pour poster un commentaire", "notif", array('type'=>'error'));
+                $this->Session->setFlash("Vous devez être connecté pour soutenir un souhait", "notif", array('type'=>'error'));
+                $this->redirect($this->referer());
             }
+        }else{
+                $this->Session->setFlash("Vous avez dejà soutenu ce souhait", "notif", array('type'=>'error'));
+                $this->redirect($this->referer());  
         }
-        }
+    }
         
     function show($id = null, $slug = null){
         $post = $this->Post->find('first',array(
@@ -78,7 +87,10 @@ class PostsController extends AppController {
         ));
         $d['comments'] = $this->Post->Comment->find('all', array(
             'conditions' => array('Post.id' => $id)
-        ));
+            ));
+       $d['users'] = $this->Post->Like->find('all', array(
+            'conditions' => array('Post.id' => $id)
+            ));
         if(!empty($this->data)){
             if(AuthComponent::user('id')){
                 $this->Post->Comment->save($this->data);

@@ -10,7 +10,7 @@
         </header>
           <div class="align-center image-wish">
                 <a href="" class="btn btn-success"><i class="icon-thumbs-up icon-white"></i> Je r√©alise son souhait</a>
-                <a href="" class="btn btn-primary"><i class="icon-heart icon-white"></i> Je le soutiens</a>
+                <a href="<?php echo $this->Html->url(array('action'=>'like', $post['Post']['id'])) ;?>" class="btn btn-primary"><i class="icon-heart icon-white"></i> Je le soutiens</a>
                 <img src="/Djinn/<?php echo $post['Post']['dir']; ?>/thumb/bigWishPicture/<?php echo $post['Post']['filename']; ?>" />
           </div>
           <div class="wish-description">
@@ -58,7 +58,7 @@
   --><h2>Infos</h2>
           </header>
           <ul>
-            <li><i class="icon-heart"></i> 231 soutiens</li>
+            <li><i class="icon-heart"></i> <?php echo $post['Post']['like_count']; ?> soutiens</li>
             <li><i class="icon-comment"></i> <?php echo $post['Post']['comment_count']; ?> commentaires</li>
             <li><i class="icon-eye-open"></i> <?php echo $post['Post']['view_count']; ?> vues</li>
             <li><i class="icon-share"></i> http://drbl.in/eDKU</li>
@@ -70,11 +70,23 @@
   --><h2>Tags</h2>
           </header>
           <p>
-              
             <?php foreach ($post['Tag'] as $k => $v): ?>
             <span class="label"><?php echo $this->Html->link($v['name'], array('action'=>'tag', $v['name'])); ?></span>
           <?php endforeach; ?>
           </p>
+        </div>
+          <div class="tags">
+          <header class="title-bloc">
+              <div class="icon"></div><!-- whitespace
+  --><h2>Vos soutiens</h2>
+          </header>
+               <?php foreach ($users as $k => $v): ?>
+                <article class="clearfix">
+                  <div class="avatar">
+                    <img alt="" src="/Djinn/<?php echo $v['User']['dir']; ?>/thumb/profile/<?php echo $v['User']['filename']; ?>" class="avatar">       
+                  </div>
+                </article>
+              <?php endforeach; ?>
         </div>
       </div>
   </div><!--/row-->

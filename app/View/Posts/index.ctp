@@ -1,4 +1,4 @@
-<?php $this->set('title_for_layout', 'Djinn'); ?> 
+<?php $this->set('title_for_layout', 'Djinn'); ?>
 <div id="gallery-photos">
       <section>
         <div id="hero">
@@ -242,7 +242,7 @@
           </a>
         </header>
         <div class="container-wish">
-            <?php foreach ($posts as $k => $v): ?>
+            <?php foreach ($populars as $k => $v): ?>
           <div class="box">
             <div class="title">
               <h3 class="title"><?php echo $v['Post']['name']; ?></h3>
