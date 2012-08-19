@@ -19808,3 +19808,111 @@
 2012-08-18 16:28:19 Error: [MissingControllerException] Controller class UploadsController could not be found.
 #0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2012-08-18 22:29:52 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-18 22:29:52 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-18 22:29:56 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-18 22:29:56 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-18 22:29:57 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-18 22:29:57 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-18 22:30:06 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-18 22:30:06 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-18 22:30:21 Error: [MissingControllerException] Controller class UploadsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-18 22:30:23 Error: [MissingControllerException] Controller class UploadsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-18 22:30:23 Error: [MissingControllerException] Controller class UploadsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-18 22:33:43 Error: [MissingControllerException] Controller class UploadsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-18 22:33:45 Error: [MissingControllerException] Controller class UploadsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-18 22:33:45 Error: [MissingControllerException] Controller class UploadsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-18 22:34:02 Error: [MissingControllerException] Controller class UploadsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-18 22:34:02 Error: [MissingControllerException] Controller class UploadsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-18 22:34:03 Error: [MissingControllerException] Controller class UploadsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-18 22:34:03 Error: [MissingControllerException] Controller class UploadsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-18 22:35:08 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-18 22:35:08 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-18 22:35:09 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-18 22:35:09 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-18 22:35:11 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-18 22:35:11 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-18 22:35:19 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-18 22:35:19 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-18 22:36:35 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-18 22:36:35 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-18 22:36:37 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-18 22:36:37 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-18 22:36:39 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-18 22:36:39 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-18 22:37:23 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-18 22:37:23 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-18 22:37:26 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-18 22:37:26 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
