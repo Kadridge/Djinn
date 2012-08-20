@@ -64,160 +64,30 @@
           <section>
           <div id="slider" style="Width:800px;height:222px;">
           <ul>
+              <?php foreach ($une as $k => $v): ?>
           <li>
             <div class="span3">
-              <img src="http://lorempixel.com/220/220" />
+              <a href="<?php echo $this->Html->url($v['Post']['link']) ;?>"><img src="/Djinn/<?php echo $v['Post']['dir']; ?>/thumb/bigWishPicture/<?php echo $v['Post']['filename']; ?>"></a>
             </div>
             <div class="span7">
-              <img src="img/img-1.jpg" alt="photo de profil" class="avatar"><!-- whitespace
---><div class="wish-title">
-                <a href="#"><h3>Je souhaite visiter la Hollande à vélo</h3></a>
-                <small>Par Edouard Poirson, le 10 novembre 2012</small>
+              <a href="<?php echo $this->Html->url(array('controller' => 'users', 'action' => 'show', $v['User']['id'])) ;?>"><img src="/Djinn/<?php echo $v['User']['dir']; ?>/thumb/profile/<?php echo $v['User']['filename']; ?>" alt="photo de profil" class="avatar"></a>
+             <div class="wish-title">
+                <a href="#"><h3><?php echo $v['Post']['name']; ?></h3></a>
+                <small>Par <?php echo $this->Html->link($v['User']['username'], array('controller' => 'users', 'action' => 'show', $v['User']['id'])); ?></small>
               </div>
               <div class="wish-content">
                 <p>
-                  Lorem ipsum <strong>tererererer</strong>dolor sit amet, consectetur adipiscing elit. Fusce nibh mi, pellentesque vitae adipiscing nec, hendrerit eget lectus. Fusce tempus suscipit cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque egestas volutpat erat, eget pretium nibh posuere vel. Sed pulvinar ipsum a augue pretium id mattis erat semper.
+                  <?php echo $this->Text->truncate($v['Post']['content'], 300, array('ending'=>'...', 'exact'=>'false')); ?>
                 </p>
               </div>
               <div class="wish-stat">
-                 <div class="icons-stat"><span>100000</span><div class="pic-stat"><i class="icon-eye-open icon-white"></i></div></div>
-                 <div class="icons-stat"><span>10</span><div class="pic-stat"><i class="icon-heart icon-white"></i></div></div>
-                 <div class="icons-stat"><span>100</span><div class="pic-stat"><i class=" icon-comment icon-white"></i></div></div>
+                 <div class="icons-stat"><span><?php echo $v['Post']['view_count']; ?></span><div class="pic-stat"><i class="icon-eye-open icon-white"></i></div></div>
+                 <div class="icons-stat"><span><?php echo $v['Post']['like_count']; ?></span><div class="pic-stat"><i class="icon-heart icon-white"></i></div></div>
+                 <div class="icons-stat"><span><?php echo $v['Post']['comment_count']; ?></span><div class="pic-stat"><i class=" icon-comment icon-white"></i></div></div>
               </div>
             </div>
           </li>
-          <li>
-            <div class="span3">
-              <img src="http://lorempixel.com/220/220" />
-            </div>
-            <div class="span7">
-              <img src="img/img-1.jpg" alt="photo de profil" class="avatar"><!-- whitespace
---><div class="wish-title">
-                <a href="#"><h3>Je souhaite visiter la Hollande à vélo</h3></a>
-                <small>Par Edouard Poirson, le 10 novembre 2012</small>
-              </div>
-              <div class="wish-content">
-                <p>
-                  Lorem ipsum <strong>tererererer</strong>dolor sit amet, consectetur adipiscing elit. Fusce nibh mi, pellentesque vitae adipiscing nec, hendrerit eget lectus. Fusce tempus suscipit cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque egestas volutpat erat, eget pretium nibh posuere vel. Sed pulvinar ipsum a augue pretium id mattis erat semper.
-                </p>
-              </div>
-              <div class="wish-stat">
-                 <div class="icons-stat"><span>100000</span><div class="pic-stat"><i class="icon-eye-open icon-white"></i></div></div>
-                 <div class="icons-stat"><span>10</span><div class="pic-stat"><i class="icon-heart icon-white"></i></div></div>
-                 <div class="icons-stat"><span>100</span><div class="pic-stat"><i class=" icon-comment icon-white"></i></div></div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="span3">
-              <img src="http://lorempixel.com/220/220" />
-            </div>
-            <div class="span7">
-              <img src="img/img-1.jpg" alt="photo de profil" class="avatar"><!-- whitespace
---><div class="wish-title">
-                <a href="#"><h3>Je souhaite visiter la Hollande à vélo</h3></a>
-                <small>Par Edouard Poirson, le 10 novembre 2012</small>
-              </div>
-              <div class="wish-content">
-                <p>
-                  Lorem ipsum <strong>tererererer</strong>dolor sit amet, consectetur adipiscing elit. Fusce nibh mi, pellentesque vitae adipiscing nec, hendrerit eget lectus. Fusce tempus suscipit cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque egestas volutpat erat, eget pretium nibh posuere vel. Sed pulvinar ipsum a augue pretium id mattis erat semper.
-                </p>
-              </div>
-              <div class="wish-stat">
-                 <div class="icons-stat"><span>100000</span><div class="pic-stat"><i class="icon-eye-open icon-white"></i></div></div>
-                 <div class="icons-stat"><span>10</span><div class="pic-stat"><i class="icon-heart icon-white"></i></div></div>
-                 <div class="icons-stat"><span>100</span><div class="pic-stat"><i class=" icon-comment icon-white"></i></div></div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="span3">
-              <img src="http://lorempixel.com/220/220" />
-            </div>
-            <div class="span7">
-              <img src="img/img-1.jpg" alt="photo de profil" class="avatar"><!-- whitespace
---><div class="wish-title">
-                <a href="#"><h3>Je souhaite visiter la Hollande à vélo</h3></a>
-                <small>Par Edouard Poirson, le 10 novembre 2012</small>
-              </div>
-              <div class="wish-content">
-                <p>
-                  Lorem ipsum <strong>tererererer</strong>dolor sit amet, consectetur adipiscing elit. Fusce nibh mi, pellentesque vitae adipiscing nec, hendrerit eget lectus. Fusce tempus suscipit cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque egestas volutpat erat, eget pretium nibh posuere vel. Sed pulvinar ipsum a augue pretium id mattis erat semper.
-                </p>
-              </div>
-              <div class="wish-stat">
-                 <div class="icons-stat"><span>100000</span><div class="pic-stat"><i class="icon-eye-open icon-white"></i></div></div>
-                 <div class="icons-stat"><span>10</span><div class="pic-stat"><i class="icon-heart icon-white"></i></div></div>
-                 <div class="icons-stat"><span>100</span><div class="pic-stat"><i class=" icon-comment icon-white"></i></div></div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="span3">
-              <img src="http://lorempixel.com/220/220" />
-            </div>
-            <div class="span7">
-              <img src="img/img-1.jpg" alt="photo de profil" class="avatar"><!-- whitespace
---><div class="wish-title">
-                <a href="#"><h3>Je souhaite visiter la Hollande à vélo</h3></a>
-                <small>Par Edouard Poirson, le 10 novembre 2012</small>
-              </div>
-              <div class="wish-content">
-                <p>
-                  Lorem ipsum <strong>tererererer</strong>dolor sit amet, consectetur adipiscing elit. Fusce nibh mi, pellentesque vitae adipiscing nec, hendrerit eget lectus. Fusce tempus suscipit cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque egestas volutpat erat, eget pretium nibh posuere vel. Sed pulvinar ipsum a augue pretium id mattis erat semper.
-                </p>
-              </div>
-              <div class="wish-stat">
-                 <div class="icons-stat"><span>100000</span><div class="pic-stat"><i class="icon-eye-open icon-white"></i></div></div>
-                 <div class="icons-stat"><span>10</span><div class="pic-stat"><i class="icon-heart icon-white"></i></div></div>
-                 <div class="icons-stat"><span>100</span><div class="pic-stat"><i class=" icon-comment icon-white"></i></div></div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="span3">
-              <img src="http://lorempixel.com/220/220" />
-            </div>
-            <div class="span7">
-              <img src="img/img-1.jpg" alt="photo de profil" class="avatar"><!-- whitespace
---><div class="wish-title">
-                <a href="#"><h3>Je souhaite visiter la Hollande à vélo</h3></a>
-                <small>Par Edouard Poirson, le 10 novembre 2012</small>
-              </div>
-              <div class="wish-content">
-                <p>
-                  Lorem ipsum <strong>tererererer</strong>dolor sit amet, consectetur adipiscing elit. Fusce nibh mi, pellentesque vitae adipiscing nec, hendrerit eget lectus. Fusce tempus suscipit cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque egestas volutpat erat, eget pretium nibh posuere vel. Sed pulvinar ipsum a augue pretium id mattis erat semper.
-                </p>
-              </div>
-              <div class="wish-stat">
-                 <div class="icons-stat"><span>100000</span><div class="pic-stat"><i class="icon-eye-open icon-white"></i></div></div>
-                 <div class="icons-stat"><span>10</span><div class="pic-stat"><i class="icon-heart icon-white"></i></div></div>
-                 <div class="icons-stat"><span>100</span><div class="pic-stat"><i class=" icon-comment icon-white"></i></div></div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="span3">
-              <img src="http://lorempixel.com/220/220" />
-            </div>
-            <div class="span7">
-              <img src="img/img-1.jpg" alt="photo de profil" class="avatar"><!-- whitespace
---><div class="wish-title">
-                <a href="#"><h3>Je souhaite visiter la Hollande à vélo</h3></a>
-                <small>Par Edouard Poirson, le 10 novembre 2012</small>
-              </div>
-              <div class="wish-content">
-                <p>
-                  Lorem ipsum <strong>tererererer</strong>dolor sit amet, consectetur adipiscing elit. Fusce nibh mi, pellentesque vitae adipiscing nec, hendrerit eget lectus. Fusce tempus suscipit cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque egestas volutpat erat, eget pretium nibh posuere vel. Sed pulvinar ipsum a augue pretium id mattis erat semper.
-                </p>
-              </div>
-              <div class="wish-stat">
-                 <div class="icons-stat"><span>100000</span><div class="pic-stat"><i class="icon-eye-open icon-white"></i></div></div>
-                 <div class="icons-stat"><span>10</span><div class="pic-stat"><i class="icon-heart icon-white"></i></div></div>
-                 <div class="icons-stat"><span>100</span><div class="pic-stat"><i class=" icon-comment icon-white"></i></div></div>
-              </div>
-            </div>
-          </li>
+          <?php endforeach; ?>
           </ul>
           </div>
             <div class="span2">

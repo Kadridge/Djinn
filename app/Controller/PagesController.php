@@ -15,7 +15,7 @@ class PagesController extends AppController {
         
     function show($id = null, $slug = null){
         $page = $this->Post->find('first',array(
-            'conditions' => array('id' => $id, 'type'=>'page')
+            'conditions' => array('Post.id' => $id, 'type'=>'page')
         ));
         if(!$id)
             throw new NotFoundException('Aucune page ne correspond à cet ID');

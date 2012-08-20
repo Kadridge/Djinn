@@ -1,6 +1,6 @@
 <?php
 class PostsController extends AppController {
-    public $helpers = array('Date');
+    public $helpers = array('Date', 'Text');
     public $components = array('RequestHandler');
     
     function menu(){
@@ -52,6 +52,10 @@ class PostsController extends AppController {
                 array('order'=>'Post.like_count DESC',
                       'conditions' => array('Post.type' => 'post','Post.online'=>1),
                       'limit' => 4)
+                );
+        $d['une'] = $this->Post->find('all',
+                array(
+                      'conditions' => array('Post.type' => 'post','Post.online'=>1, 'Post.une' => 1))
                 );
         $this->set($d);
         }
@@ -122,7 +126,7 @@ class PostsController extends AppController {
     }
     
     function admin_index(){
-        $d['posts'] = $this->Paginate('Post', array('type'=>'post', 'online >= 0'));   
+        $d['posts'] = $this->Paginate('Post', array('type'=>'post', 'online >= 0', 'Post.created <= NOW()'));   
         $this->set($d);
     }
     
@@ -134,6 +138,8 @@ class PostsController extends AppController {
             if($this->Post->save($d)){
                 $this->Session->setFlash("Le contenu a bien été modifié", "notif");
                 $this->redirect(array('action'=>'index'));
+            }else{
+                $this->Session->setFlash("Une erreur est survenue lors de l'enregistrement, vérifier les champs", "notif", array('type'=>'error'));
             }
 
         }elseif($id){
@@ -155,6 +161,38 @@ class PostsController extends AppController {
         $this->Session->setFlash('L\'article a bien été supprimée', 'notif');
         $this->Post->delete($id);
         $this->redirect($this->referer());
+    }
+    
+        function admin_une($id = null){
+        $check = $this->Post->find('first', array('conditions' => array('Post.id' => $id)));
+        if(!empty($check) && $check['Post']['une'] == 0){
+            if($this->Post->updateAll(array('Post.une' => 1), array( 'Post.id' => $id))){
+                $this->Session->setFlash("Le souhait as été mis à la une", "notif");
+                $this->redirect($this->referer());
+            }else{
+                $this->Session->setFlash("ca marche pas", "notif", array('type'=>'error'));
+                $this->redirect($this->referer());
+            }
+        }else{
+                $this->Session->setFlash("j'arrive pas à recup le post", "notif", array('type'=>'error'));
+                $this->redirect($this->referer());  
+        }
+    }
+    
+        function admin_supprimerune($id = null){
+        $check = $this->Post->find('first', array('conditions' => array('Post.id' => $id)));
+        if(!empty($check) && $check['Post']['une'] == 1){
+            if($this->Post->updateAll(array('Post.une' => 0), array( 'Post.id' => $id))){
+                $this->Session->setFlash("Le souhait as été supprimé de la une", "notif");
+                $this->redirect($this->referer());
+            }else{
+                $this->Session->setFlash("ca marche pas", "notif", array('type'=>'error'));
+                $this->redirect($this->referer());
+            }
+        }else{
+                $this->Session->setFlash("j'arrive pas à recup le post", "notif", array('type'=>'error'));
+                $this->redirect($this->referer());  
+        }
     }
     
     function admin_delTag($id){
