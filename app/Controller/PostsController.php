@@ -42,19 +42,21 @@ class PostsController extends AppController {
         }
         
     function index(){
-        $this->Post->contain('User', 'Category', 'Comment', 'Like');
-        $this->paginate = array(
-        'conditions' => array('Post.type' => 'post','Post.online'=>1, 'Post.created <= NOW()' ),
-        'limit' => 4
-        );
-        $d['posts'] = $this->paginate('Post');
+        $this->Post->contain('User');
+        $d['posts'] = $this->Post->find('all',
+                array('order'=>'Post.created DESC',
+                    'conditions' => array('Post.type' => 'post','Post.online'=>1),
+                    'limit' => 4
+        ));
+        $this->Post->contain('User');
         $d['populars'] = $this->Post->find('all',
                 array('order'=>'Post.like_count DESC',
                       'conditions' => array('Post.type' => 'post','Post.online'=>1),
                       'limit' => 4)
                 );
+        $this->Post->contain('User', 'Category');
         $d['une'] = $this->Post->find('all',
-                array(
+                array('order'=>'Post.created DESC',
                       'conditions' => array('Post.type' => 'post','Post.online'=>1, 'Post.une' => 1))
                 );
         $this->set($d);
@@ -85,9 +87,9 @@ class PostsController extends AppController {
     }
         
     function show($id = null, $slug = null){
+        $this->Post->contain('User','Tag');
         $post = $this->Post->find('first',array(
-            'conditions' => array('Post.id' => $id),
-            'recursive'  => 1
+            'conditions' => array('Post.id' => $id)
         ));
         $d['comments'] = $this->Post->Comment->find('all', array(
             'conditions' => array('Post.id' => $id)
@@ -111,7 +113,7 @@ class PostsController extends AppController {
             $this->redirect($post['Post']['link'],301);
         $d['count'] = $this->Post->Comment->find('count');
         $d['post'] = $post;
-        $this->Post->updateAll(array( 'Post.view_count' => 'Post.view_count + 1'), array( 'Post.id' => $post['Post']['id']));
+        $this->Post->updateAll(array( 'Post.view_count' => 'Post.view_count + 1'), array('Post.id' => $post['Post']['id']));
         $this->set($d);
     }
     

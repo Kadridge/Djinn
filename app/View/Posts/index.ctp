@@ -65,6 +65,7 @@
           <div id="slider" style="Width:800px;height:222px;">
           <ul>
               <?php foreach ($une as $k => $v): ?>
+              <?php $tabcat[] = $v['Category']['name']; ?>
           <li>
             <div class="span3">
               <a href="<?php echo $this->Html->url($v['Post']['link']) ;?>"><img src="/Djinn/<?php echo $v['Post']['dir']; ?>/thumb/bigWishPicture/<?php echo $v['Post']['filename']; ?>"></a>
@@ -92,13 +93,13 @@
           </div>
             <div class="span2">
               <ul id="puces-navigation">
-                <li class="slider-puce slider-puce-active" id="0">Design</li>
-                <li class="slider-puce" id="1">Musique</li>
-                <li class="slider-puce" id="2">Sport</li>
-                <li class="slider-puce" id="3">Voyage</li>
-                <li class="slider-puce" id="4">Musique</li>
-                <li class="slider-puce" id="5">Technologie</li>
-                <li class="slider-puce" id="6">Entreprise</li>
+                <li class="slider-puce slider-puce-active" id="0"><?php echo $tabcat[0]; ?></li>
+                <li class="slider-puce" id="1"><?php echo $tabcat[1]; ?></li>
+                <li class="slider-puce" id="2"><?php echo $tabcat[2]; ?></li>
+                <li class="slider-puce" id="3"><?php echo $tabcat[3]; ?></li>
+                <li class="slider-puce" id="4"><?php echo $tabcat[4]; ?></li>
+                <li class="slider-puce" id="5"><?php echo $tabcat[5]; ?></li>
+                <li class="slider-puce" id="6"><?php echo $tabcat[6]; ?></li>
               </ul>
             </div>
           </section>

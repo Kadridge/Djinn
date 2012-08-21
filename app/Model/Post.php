@@ -3,21 +3,20 @@ class Post extends AppModel{
     
     var $name = 'Post';
     var $actsAs = array(
-        'Containable',
-    'MeioUpload.MeioUpload' => array(
-    'filename' => array(        
-        'create_directory' => true,
-        'allowed_mime' => array('image/jpeg', 'image/pjpeg', 'image/png'),
-        'allowed_ext' => array('.jpg', '.jpeg', '.png'),
-        'zoomCrop' => true,
-        'thumbsizes' => array(
-        'normal' => array('width' => 400, 'height' => 300),
-        'bigWishPicture' => array('width' => 220, 'height' => 220,'maxDimension' => '', 'thumbnailQuality' => 100, 'zoomCrop' => true),
-        'wishPicture' => array('width' => 200, 'height' => 200,'maxDimension' => '', 'thumbnailQuality' => 100, 'zoomCrop' => true), 
-        'mozaic' => array('width' => 120, 'height' => 120,'maxDimension' => '', 'thumbnailQuality' => 100, 'zoomCrop' => true)
-        ),
-        'default' => 'default.jpg'
-    ) 
+                'Containable',
+                'MeioUpload.MeioUpload' => array(
+                'filename' => array(        
+                'create_directory' => true,
+                'allowed_mime' => array('image/jpeg', 'image/pjpeg', 'image/png'),
+                'allowed_ext' => array('.jpg', '.jpeg', '.png'),
+                'zoomCrop' => true,
+                'thumbsizes' => array(
+                'normal' => array('width' => 400, 'height' => 300),
+                'bigWishPicture' => array('width' => 220, 'height' => 220,'maxDimension' => '', 'thumbnailQuality' => 100, 'zoomCrop' => true),
+                'wishPicture' => array('width' => 200, 'height' => 200,'maxDimension' => '', 'thumbnailQuality' => 100, 'zoomCrop' => true), 
+                'mozaic' => array('width' => 120, 'height' => 120,'maxDimension' => '', 'thumbnailQuality' => 100, 'zoomCrop' => true)
+                )
+            ) 
     ));
     
 public $hasAndBelongsToMany = array('Tag');

@@ -41,5 +41,6 @@
     <?php echo $this->Html->script('canHazSlider'); ?>
     <?php echo $this->Html->script('main'); ?>   
     <?php echo $this->Html->script('facebook'); ?>  
+    <?php echo $this->element('sql_dump'); ?>
   </body>
 </html>

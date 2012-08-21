@@ -21751,3 +21751,1351 @@
 #3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2012-08-20 20:33:16 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-20 20:33:16 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-20 20:33:17 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-20 20:33:17 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-20 20:33:17 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-20 20:33:19 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-20 20:33:19 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-20 20:33:19 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-20 20:33:19 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-20 20:33:19 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-20 20:33:19 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-20 20:33:21 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-20 20:33:21 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-20 20:33:21 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-20 20:33:21 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-20 20:33:21 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-20 20:33:21 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-20 20:33:23 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-20 20:33:23 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-20 20:33:23 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-20 20:33:23 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-20 20:33:23 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-20 20:33:23 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-20 20:33:25 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-20 20:33:25 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-20 20:33:25 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-20 20:33:25 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-20 20:33:25 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-20 20:33:25 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-20 20:33:25 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-20 20:33:25 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-20 20:33:25 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-20 20:33:29 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-20 20:33:29 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-20 20:33:29 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-20 20:33:29 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-20 20:33:29 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-20 20:33:29 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-20 20:33:49 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-20 20:33:49 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-20 20:33:49 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-20 20:33:49 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-20 20:33:49 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-20 20:33:52 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-20 20:33:52 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-20 20:33:52 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-20 20:33:52 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-20 20:33:52 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-20 20:33:52 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-20 20:33:56 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-20 20:33:56 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-20 20:33:56 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-20 20:33:56 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-20 20:33:56 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-20 20:33:56 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-20 20:34:02 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-20 20:34:02 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-20 20:34:02 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-20 20:34:02 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-20 20:34:02 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-20 20:34:02 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-20 20:34:03 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-20 20:34:03 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-20 20:34:03 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-20 20:34:03 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-20 20:34:03 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-20 20:34:03 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-20 20:34:06 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-20 20:34:06 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-20 20:34:06 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-20 20:34:06 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-20 20:34:06 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-20 20:34:06 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-20 20:34:12 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-20 20:34:12 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-20 20:34:12 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-20 20:34:12 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-20 20:34:12 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-20 20:34:12 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:47:56 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:47:56 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:47:56 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:47:56 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:47:56 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:48:00 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:48:00 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:48:00 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:48:00 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:48:00 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:48:00 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:48:03 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:48:03 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:48:03 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:48:03 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:48:03 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:48:03 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:48:03 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:48:03 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:48:03 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:48:08 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:48:08 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:48:08 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:48:08 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:48:08 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:48:08 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:48:12 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:48:12 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:48:12 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:48:12 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:48:12 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:48:12 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:48:14 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:48:14 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:48:14 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:48:14 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:48:14 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:48:14 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:48:16 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:48:16 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:48:16 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:48:16 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:48:16 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:48:16 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:48:19 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:48:19 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:48:19 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:48:19 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:48:19 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:48:19 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:48:21 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:48:21 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:48:21 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:48:21 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:48:21 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:48:21 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:48:21 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:48:21 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:48:21 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:48:25 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:48:25 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:48:25 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:48:25 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:48:25 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:48:25 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:48:28 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:48:28 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:48:28 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:48:28 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:48:28 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:48:28 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:48:28 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:48:28 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:48:28 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:48:30 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:48:30 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:48:30 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:48:30 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:48:30 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:48:30 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:48:32 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:48:32 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:48:32 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:48:32 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:48:32 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:48:32 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:48:32 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:48:32 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:48:32 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:48:36 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:48:36 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:48:36 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:48:36 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:48:36 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:48:36 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:48:39 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:48:39 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:48:39 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:48:39 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:48:39 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:48:39 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:48:39 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:48:39 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:48:39 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:48:43 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:48:43 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:48:43 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:48:43 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:48:43 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:48:43 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:48:45 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:48:45 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:48:45 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:48:45 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:48:45 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:48:45 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:48:45 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:48:45 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:48:45 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:48:51 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:48:51 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:48:51 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:48:51 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:48:51 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:48:51 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:48:53 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:48:53 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:48:53 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:48:53 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:48:53 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:48:53 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:48:54 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:48:54 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:48:54 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:48:57 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:48:57 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:48:57 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:48:57 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:48:57 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:48:57 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:49:00 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:49:00 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:49:00 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:49:00 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:49:00 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:49:00 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:49:00 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:49:00 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:49:00 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:49:04 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:49:04 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:49:04 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:49:04 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:49:04 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:49:04 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:49:06 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:49:06 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:49:06 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:49:06 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:49:06 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:49:06 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:49:06 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:49:06 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:49:06 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:49:10 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:49:10 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:49:10 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:49:10 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:49:10 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:49:10 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:53:05 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:53:05 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:53:06 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:53:06 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:53:06 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:53:08 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:53:08 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:53:08 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:53:08 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:53:08 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:53:08 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:53:11 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:53:11 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:53:11 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:53:11 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:53:11 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:53:11 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:53:11 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:53:11 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:53:11 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:56:47 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:56:47 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:56:47 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:56:47 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:56:47 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:57:37 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:57:37 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:57:37 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:57:37 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:57:37 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:57:41 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:57:41 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:57:41 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:57:41 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:57:41 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:57:41 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:57:41 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:57:41 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:57:41 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:58:04 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:58:04 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:58:04 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:58:04 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:58:04 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:58:10 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:58:10 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:58:10 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:58:10 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:58:10 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:58:10 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:59:02 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:59:02 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:59:02 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:59:02 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:59:02 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:59:04 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:59:04 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:59:04 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:59:04 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:59:04 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:59:04 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:59:05 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:59:05 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:59:05 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:59:05 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:59:05 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:59:05 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:59:10 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:59:10 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:59:10 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:59:10 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:59:10 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:59:10 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:59:25 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:59:25 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:59:25 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:59:25 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:59:25 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:59:25 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:59:32 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:59:32 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:59:32 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:59:32 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:59:32 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:59:32 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:59:36 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:59:36 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:59:36 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:59:36 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:59:36 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:59:36 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 19:59:58 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:59:58 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:59:58 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 19:59:58 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 19:59:58 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 20:01:42 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 20:01:42 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 20:01:42 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 20:01:42 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 20:01:42 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 20:05:39 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 20:05:39 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 20:05:39 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 20:05:39 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 20:05:39 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 20:12:28 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 20:12:28 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 20:12:29 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 20:12:29 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 20:12:29 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 20:22:31 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 20:22:31 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 20:22:32 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 20:22:33 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 20:22:33 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 20:25:22 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 20:25:22 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 20:32:40 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 20:32:41 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-21 20:32:42 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-21 20:32:42 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-21 20:40:54 Error: [NotFoundException] Aucune page ne correspond à cet ID
+#0 [internal function]: PostsController->show('1', 'boire-un-cockta...')
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
