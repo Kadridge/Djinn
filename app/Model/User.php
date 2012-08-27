@@ -38,10 +38,12 @@ class User extends AppModel{
     	var $name = 'User';
 	var $hasMany = array('Post'=>array('className'=>'Post'),
             'Comment',
-            'Like'
+            'Like',
+            'Message'
             );
         
     var $actsAs = array(
+        'Containable',
     'MeioUpload.MeioUpload' => array(
     'filename' => array(
         'create_directory' => true,

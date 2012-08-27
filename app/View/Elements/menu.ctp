@@ -51,7 +51,7 @@
                 <li class="current-user"><a href="<?php echo $this->Html->url(array("controller" => "users","action" => "show", $this->Session->read('Auth.User.id'))); ?>"><img src="/Djinn/<?php echo $this->Session->read('Auth.User.dir'); ?>/thumb/dropdown/<?php echo $this->Session->read('Auth.User.filename'); ?>"><span><?php echo $this->Session->read('Auth.User.username'); ?> <small>Voir ma page profil</small></span></a></li>
                 <li class="divider"></li>
                 <li><a href="#"><i class="icon-star"></i> Mes souhaits</a></li>
-                <li><a href="#"><i class="icon-envelope"></i> Messages priv√©s</a></li>
+                <li><a href="<?php echo $this->Html->url(array('action'=>'index', 'controller'=>'messages')); ?>"><i class="icon-envelope"></i> Messages priv√©s</a></li>
                 <li class="divider"></li>
                 <li><a href="#"><i class="icon-cog"></i> Param√®tres</a></li>
                 <li><a href="#"><i class=" icon-question-sign"></i> Aide</a></li>

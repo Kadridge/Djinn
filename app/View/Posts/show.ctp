@@ -62,6 +62,7 @@
             <li><i class="icon-comment"></i> <?php echo $post['Post']['comment_count']; ?> commentaires</li>
             <li><i class="icon-eye-open"></i> <?php echo $post['Post']['view_count']; ?> vues</li>
             <li><i class="icon-share"></i> http://drbl.in/eDKU</li>
+            <li><a href="<?php echo $this->Html->url(array('controller'=>'messages','action'=>'message', $post['User']['id'] + AuthComponent::user('id'))) ;?>" class="btn btn-link"><i class="icon-envelope icon-white"></i> Lui envoyer un message</a></li>
           </ul>
         </div>
         <div class="tags">

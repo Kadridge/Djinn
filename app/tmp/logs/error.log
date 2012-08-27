@@ -23099,3 +23099,1281 @@
 #3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
 #4 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2012-08-22 08:13:45 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 08:13:45 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 08:13:46 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 08:13:46 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-22 08:13:46 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-22 08:13:54 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 08:13:54 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-22 08:13:54 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-22 08:13:54 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 08:13:54 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-22 08:13:54 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-22 08:14:01 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 08:14:01 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-22 08:14:01 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-22 08:14:01 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 08:14:01 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-22 08:14:01 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-22 08:14:02 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 08:14:02 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-22 08:14:02 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-22 18:54:30 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Post.id' in 'where clause'
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Message...', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Message...', Array, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Message...', false)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(2631): DboSource->read(Object(Message), Array)
+#5 /Applications/MAMP/htdocs/Djinn/app/Controller/UsersController.php(59): Model->find('all', Array)
+#6 [internal function]: UsersController->message('1')
+#7 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-08-22 19:04:14 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'session.id' in 'where clause'
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Message...', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Message...', Array, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Message...', false)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(2631): DboSource->read(Object(Message), Array)
+#5 /Applications/MAMP/htdocs/Djinn/app/Controller/UsersController.php(59): Model->find('all', Array)
+#6 [internal function]: UsersController->message('2')
+#7 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-08-22 19:04:57 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/Djinn/app/View/Users/message.ctp" is missing.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-08-22 20:06:08 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/Djinn/app/View/Users/message.ctp" is missing.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-08-22 20:15:22 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'contain' at line 1
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('contain', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('contain', Array, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(613): DboSource->fetchAll('contain', Array, Array)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(784): DboSource->query('contain', Array, Object(User))
+#5 /Applications/MAMP/htdocs/Djinn/app/Controller/UsersController.php(57): Model->__call('contain', Array)
+#6 /Applications/MAMP/htdocs/Djinn/app/Controller/UsersController.php(57): User->contain()
+#7 [internal function]: UsersController->message('2')
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-08-22 20:15:34 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'contain' at line 1
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('contain', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('contain', Array, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(613): DboSource->fetchAll('contain', Array, Array)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(784): DboSource->query('contain', Array, Object(User))
+#5 /Applications/MAMP/htdocs/Djinn/app/Controller/UsersController.php(57): Model->__call('contain', Array)
+#6 /Applications/MAMP/htdocs/Djinn/app/Controller/UsersController.php(57): User->contain(false)
+#7 [internal function]: UsersController->message('2')
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-08-22 20:15:44 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'contain' at line 1
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('contain', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('contain', Array, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(613): DboSource->fetchAll('contain', Array, Array)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(784): DboSource->query('contain', Array, Object(User))
+#5 /Applications/MAMP/htdocs/Djinn/app/Controller/UsersController.php(57): Model->__call('contain', Array)
+#6 /Applications/MAMP/htdocs/Djinn/app/Controller/UsersController.php(57): User->contain('User')
+#7 [internal function]: UsersController->message('2')
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-08-22 20:15:44 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-22 20:15:44 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-22 20:15:51 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'contain' at line 1
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('contain', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('contain', Array, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(613): DboSource->fetchAll('contain', Array, Array)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(784): DboSource->query('contain', Array, Object(User))
+#5 /Applications/MAMP/htdocs/Djinn/app/Controller/UsersController.php(57): Model->__call('contain', Array)
+#6 /Applications/MAMP/htdocs/Djinn/app/Controller/UsersController.php(57): User->contain('Message')
+#7 [internal function]: UsersController->message('2')
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-08-22 20:15:51 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-22 20:15:51 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-22 20:15:53 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'contain' at line 1
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('contain', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('contain', Array, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(613): DboSource->fetchAll('contain', Array, Array)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(784): DboSource->query('contain', Array, Object(User))
+#5 /Applications/MAMP/htdocs/Djinn/app/Controller/UsersController.php(57): Model->__call('contain', Array)
+#6 /Applications/MAMP/htdocs/Djinn/app/Controller/UsersController.php(57): User->contain('Message')
+#7 [internal function]: UsersController->message('2')
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-08-22 20:15:53 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-22 20:15:53 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-22 20:16:07 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'contain' at line 1
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('contain', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('contain', Array, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(613): DboSource->fetchAll('contain', Array, Array)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(784): DboSource->query('contain', Array, Object(User))
+#5 /Applications/MAMP/htdocs/Djinn/app/Controller/UsersController.php(57): Model->__call('contain', Array)
+#6 /Applications/MAMP/htdocs/Djinn/app/Controller/UsersController.php(57): User->contain('Message')
+#7 [internal function]: UsersController->message('2')
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-08-22 20:16:07 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-22 20:16:07 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-22 20:16:25 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'contain' at line 1
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('contain', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('contain', Array, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(613): DboSource->fetchAll('contain', Array, Array)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(784): DboSource->query('contain', Array, Object(User))
+#5 /Applications/MAMP/htdocs/Djinn/app/Controller/UsersController.php(57): Model->__call('contain', Array)
+#6 /Applications/MAMP/htdocs/Djinn/app/Controller/UsersController.php(57): User->contain('Post')
+#7 [internal function]: UsersController->message('2')
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-08-22 20:24:58 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 20:27:09 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 20:27:10 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 20:27:10 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-22 20:27:10 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-22 20:27:28 Error: Fatal Error (1): Cannot use string offset as an array in [/Applications/MAMP/htdocs/Djinn/app/View/Users/message.ctp, line 14]
+2012-08-22 20:27:28 Error: [FatalErrorException] Cannot use string offset as an array
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Cannot use stri...', '/Applications/M...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use stri...', '/Applications/M...', 14, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot use stri...', '/Applications/M...', 14, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-22 20:27:55 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 20:27:55 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 20:27:55 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-22 20:27:55 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-22 20:29:44 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 20:29:44 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 20:29:44 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-22 20:29:44 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-22 20:30:16 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 20:30:16 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 20:30:16 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-22 20:30:16 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-22 20:30:35 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 20:30:35 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 20:30:35 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-22 20:30:35 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-22 20:30:50 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 20:30:50 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 20:30:50 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-22 20:30:50 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-22 20:31:16 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 20:31:16 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 20:31:17 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-22 20:31:17 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-22 20:31:32 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 20:31:32 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 20:31:32 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-22 20:31:32 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-22 20:32:14 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 20:32:14 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 20:32:14 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-22 20:32:14 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-22 20:32:26 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 20:32:26 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 20:32:26 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-22 20:32:26 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-22 20:33:30 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 20:33:30 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 20:33:30 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-22 20:33:30 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-22 20:33:47 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 20:33:47 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 20:33:47 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-22 20:33:47 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-22 20:34:17 Error: [MissingControllerException] Controller class UploadsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 20:34:18 Error: [MissingControllerException] Controller class UploadsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 20:34:18 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-22 20:34:18 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-22 20:34:47 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 20:34:47 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 20:34:47 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-22 20:34:47 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-22 20:34:55 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 20:34:55 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-22 20:34:55 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-22 20:35:22 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 20:35:23 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 20:35:23 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-22 20:35:23 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-22 20:39:59 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 20:39:59 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 20:39:59 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-22 20:39:59 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-22 20:55:16 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 20:55:16 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 20:55:17 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 20:55:17 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-22 20:55:17 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-22 21:22:28 Error: [MissingControllerException] Controller class MessagesController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 21:22:57 Error: Fatal Error (1): Call to a member function contain() on a non-object in [/Applications/MAMP/htdocs/Djinn/app/Controller/MessagesController.php, line 9]
+2012-08-22 21:22:57 Error: [FatalErrorException] Call to a member function contain() on a non-object
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 9)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 9, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 9, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-22 21:23:39 Error: Fatal Error (1): Call to a member function contain() on a non-object in [/Applications/MAMP/htdocs/Djinn/app/Controller/MessagesController.php, line 9]
+2012-08-22 21:23:39 Error: [FatalErrorException] Call to a member function contain() on a non-object
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 9)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 9, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 9, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-22 21:24:03 Error: Fatal Error (1): Call to a member function contain() on a non-object in [/Applications/MAMP/htdocs/Djinn/app/Controller/MessagesController.php, line 9]
+2012-08-22 21:24:03 Error: [FatalErrorException] Call to a member function contain() on a non-object
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 9)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 9, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 9, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-22 21:24:30 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Applications/MAMP/htdocs/Djinn/app/Controller/MessagesController.php, line 12]
+2012-08-22 21:24:30 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 12, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 12, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-22 21:24:46 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/Djinn/app/View/Messages/message.ctp" is missing.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-08-22 21:28:08 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/Djinn/app/View/Messages/index.ctp" is missing.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-08-22 21:38:15 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 21:38:15 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 21:38:15 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 21:38:16 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-22 21:38:16 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-22 21:38:20 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Message.user_id' in 'where clause'
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(2631): DboSource->read(Object(User), Array)
+#5 /Applications/MAMP/htdocs/Djinn/app/Controller/MessagesController.php(7): Model->find('all', Array)
+#6 [internal function]: MessagesController->index()
+#7 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-08-22 21:38:21 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-22 21:38:21 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-22 21:41:21 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Message.user_id' in 'where clause'
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(2631): DboSource->read(Object(User), Array)
+#5 /Applications/MAMP/htdocs/Djinn/app/Controller/MessagesController.php(7): Model->find('all', Array)
+#6 [internal function]: MessagesController->index()
+#7 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-08-22 22:02:44 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 22:02:44 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 22:02:47 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 22:02:48 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-22 22:02:48 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-22 22:02:48 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 22:02:48 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-22 22:02:48 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-22 22:02:53 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 22:02:53 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-22 22:02:53 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-22 22:02:59 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 22:02:59 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 22:02:59 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-22 22:02:59 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-22 22:02:59 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-22 22:02:59 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-22 22:03:03 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 22:03:03 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-22 22:03:03 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-22 22:03:03 Error: Fatal Error (1): Class 'ExceptionRenderer' not found in [/Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php, line 126]
+2012-08-22 22:03:03 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-22 22:03:03 Error: [FatalErrorException] Class 'ExceptionRenderer' not found
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'Exceptio...', '/Applications/M...', 126)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Exceptio...', '/Applications/M...', 126, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-23 08:08:16 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Message.userr_id' in 'where clause'
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(2631): DboSource->read(Object(User), Array)
+#5 /Applications/MAMP/htdocs/Djinn/app/Controller/MessagesController.php(12): Model->find('all', Array)
+#6 [internal function]: MessagesController->index()
+#7 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-08-23 20:51:21 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-23 20:51:21 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-23 20:52:18 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.active' in 'where clause'
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Message...', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Message...', Array, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Message...', false)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(2631): DboSource->read(Object(Message), Array)
+#5 /Applications/MAMP/htdocs/Djinn/app/Controller/MessagesController.php(8): Model->find('all', Array)
+#6 [internal function]: MessagesController->index()
+#7 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-08-23 20:56:53 Error: Fatal Error (1): Call to undefined method MessagesController::contain() in [/Applications/MAMP/htdocs/Djinn/app/Controller/MessagesController.php, line 5]
+2012-08-23 20:56:53 Error: [FatalErrorException] Call to undefined method MessagesController::contain()
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/M...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/M...', 5, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/M...', 5, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-23 20:57:45 Error: Fatal Error (64): Cannot redeclare Message::$actsAs in [/Applications/MAMP/htdocs/Djinn/app/Model/Message.php, line 13]
+2012-08-23 20:57:45 Error: [FatalErrorException] Cannot redeclare Message::$actsAs
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Applications/M...', 13)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Applications/M...', 13, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Applications/M...', 13, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-23 21:00:07 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Message.user_id' in 'where clause'
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(2631): DboSource->read(Object(User), Array)
+#5 /Applications/MAMP/htdocs/Djinn/app/Controller/MessagesController.php(13): Model->find('all', Array)
+#6 [internal function]: MessagesController->index()
+#7 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-08-23 21:20:28 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.active' in 'where clause'
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Message...', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Message...', Array, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Message...', false)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(2631): DboSource->read(Object(Message), Array)
+#5 /Applications/MAMP/htdocs/Djinn/app/Controller/MessagesController.php(9): Model->find('all', Array)
+#6 [internal function]: MessagesController->index()
+#7 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-08-23 21:20:47 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-23 21:22:33 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.active' in 'where clause'
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Message...', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Message...', Array, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Message...', false)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(2631): DboSource->read(Object(Message), Array)
+#5 /Applications/MAMP/htdocs/Djinn/app/Controller/MessagesController.php(9): Model->find('all', Array)
+#6 [internal function]: MessagesController->index()
+#7 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-08-23 21:38:35 Error: Fatal Error (1): Unsupported operand types in [/Applications/MAMP/htdocs/Djinn/app/Controller/MessagesController.php, line 14]
+2012-08-23 21:38:35 Error: [FatalErrorException] Unsupported operand types
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Unsupported ope...', '/Applications/M...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', '/Applications/M...', 14, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', '/Applications/M...', 14, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-25 11:23:00 Error: [MissingTableException] Table messages_messages for model MessagesMessage was not found in datasource default.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(3180): Model->setSource('messages_messag...')
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(1301): Model->getDataSource()
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(847): Model->schema()
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(872): Model->__isset('MessagesMessage')
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(3248): Model->__get('MessagesMessage')
+#5 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1598): Model->joinModel('MessagesMessage', Array)
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1073): DboSource->generateAssociationQuery(Object(Message), Object(Message), 'hasAndBelongsTo...', 'Message', Array, Array, false, NULL)
+#7 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(2631): DboSource->read(Object(Message), Array)
+#8 /Applications/MAMP/htdocs/Djinn/app/Controller/MessagesController.php(9): Model->find('all', Array)
+#9 [internal function]: MessagesController->index()
+#10 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#11 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#12 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#13 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2012-08-25 11:23:46 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.active' in 'where clause'
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Message...', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Message...', Array, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Message...', false)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(2631): DboSource->read(Object(Message), Array)
+#5 /Applications/MAMP/htdocs/Djinn/app/Controller/MessagesController.php(9): Model->find('all', Array)
+#6 [internal function]: MessagesController->index()
+#7 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-08-25 11:24:04 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.active' in 'where clause'
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Message...', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Message...', Array, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Message...', false)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(2631): DboSource->read(Object(Message), Array)
+#5 /Applications/MAMP/htdocs/Djinn/app/Controller/MessagesController.php(9): Model->find('all', Array)
+#6 [internal function]: MessagesController->index()
+#7 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-08-25 11:24:13 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.active' in 'where clause'
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Message...', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Message...', Array, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Message...', false)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(2631): DboSource->read(Object(Message), Array)
+#5 /Applications/MAMP/htdocs/Djinn/app/Controller/MessagesController.php(9): Model->find('all', Array)
+#6 [internal function]: MessagesController->index()
+#7 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-08-25 11:24:26 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-25 11:24:55 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-25 11:27:00 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('INSERT INTO `dj...', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1009): DboSource->execute('INSERT INTO `dj...')
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(1730): DboSource->create(Object(Message), Array, Array)
+#4 /Applications/MAMP/htdocs/Djinn/app/Controller/MessagesController.php(21): Model->save(Array)
+#5 [internal function]: MessagesController->message('22')
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#7 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#9 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-08-25 11:29:57 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-25 11:48:49 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('INSERT INTO `dj...', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1009): DboSource->execute('INSERT INTO `dj...')
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(1730): DboSource->create(Object(Message), Array, Array)
+#4 /Applications/MAMP/htdocs/Djinn/app/Controller/MessagesController.php(24): Model->save(Array)
+#5 [internal function]: MessagesController->message('22')
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#7 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#9 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-08-25 11:51:00 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-25 11:51:00 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-25 12:05:15 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('INSERT INTO `dj...', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1009): DboSource->execute('INSERT INTO `dj...')
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(1730): DboSource->create(Object(Message), Array, Array)
+#4 /Applications/MAMP/htdocs/Djinn/app/Controller/MessagesController.php(24): Model->save(Array)
+#5 [internal function]: MessagesController->message('22')
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#7 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#9 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-08-25 12:07:54 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('INSERT INTO `dj...', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1009): DboSource->execute('INSERT INTO `dj...')
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(1730): DboSource->create(Object(Message), Array, Array)
+#4 /Applications/MAMP/htdocs/Djinn/app/Controller/MessagesController.php(24): Model->save(Array)
+#5 [internal function]: MessagesController->message('22')
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#7 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#9 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-08-25 12:07:57 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('INSERT INTO `dj...', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1009): DboSource->execute('INSERT INTO `dj...')
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(1730): DboSource->create(Object(Message), Array, Array)
+#4 /Applications/MAMP/htdocs/Djinn/app/Controller/MessagesController.php(24): Model->save(Array)
+#5 [internal function]: MessagesController->message('22')
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#7 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#9 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-08-25 15:09:49 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'updateField' at line 1
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('updateField', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('updateField', Array, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(613): DboSource->fetchAll('updateField', Array, Array)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(784): DboSource->query('updateField', Array, Object(Message))
+#5 /Applications/MAMP/htdocs/Djinn/app/Controller/MessagesController.php(25): Model->__call('updateField', Array)
+#6 /Applications/MAMP/htdocs/Djinn/app/Controller/MessagesController.php(25): Message->updateField(Array)
+#7 [internal function]: MessagesController->message('22')
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-08-25 15:17:00 Error: Fatal Error (4): syntax error, unexpected ';' in [/Applications/MAMP/htdocs/Djinn/app/Controller/MessagesController.php, line 22]
+2012-08-25 15:17:00 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 22)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 22, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 22, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-25 15:17:04 Error: Fatal Error (4): syntax error, unexpected ';' in [/Applications/MAMP/htdocs/Djinn/app/Controller/MessagesController.php, line 22]
+2012-08-25 15:17:04 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 22)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 22, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 22, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-26 09:21:32 Error: [MissingTableException] Table message_users for model MessageUser was not found in datasource default.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(3180): Model->setSource('message_users')
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1068): Model->getDataSource()
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(2631): DboSource->read(Object(Message), Array)
+#3 /Applications/MAMP/htdocs/Djinn/app/Controller/MessagesController.php(10): Model->find('all', Array)
+#4 [internal function]: MessagesController->index()
+#5 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#7 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#8 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2012-08-26 09:23:20 Error: [MissingTableException] Table message_users for model MessageUser was not found in datasource default.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(3180): Model->setSource('message_users')
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1068): Model->getDataSource()
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(2631): DboSource->read(Object(Message), Array)
+#3 /Applications/MAMP/htdocs/Djinn/app/Controller/MessagesController.php(21): Model->find('all', Array)
+#4 [internal function]: MessagesController->message('22')
+#5 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#7 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#8 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2012-08-26 09:26:30 Error: [MissingTableException] Table message_users for model MesageUser was not found in datasource default.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(3180): Model->setSource('message_users')
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1068): Model->getDataSource()
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(2631): DboSource->read(Object(Message), Array)
+#3 /Applications/MAMP/htdocs/Djinn/app/Controller/MessagesController.php(21): Model->find('all', Array)
+#4 [internal function]: MessagesController->message('22')
+#5 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#7 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#8 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2012-08-26 09:45:58 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-26 09:45:58 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-26 09:46:02 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.active' in 'where clause'
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Message...', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Message...', Array, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Message...', false)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(2631): DboSource->read(Object(Message), Array)
+#5 /Applications/MAMP/htdocs/Djinn/app/Controller/MessagesController.php(10): Model->find('all', Array)
+#6 [internal function]: MessagesController->index()
+#7 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-08-26 09:51:34 Error: Fatal Error (4): syntax error, unexpected ')' in [/Applications/MAMP/htdocs/Djinn/app/View/Messages/message.ctp, line 3]
+2012-08-26 09:51:34 Error: [FatalErrorException] syntax error, unexpected ')'
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 3, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 3, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-26 09:51:49 Error: Fatal Error (4): syntax error, unexpected ')' in [/Applications/MAMP/htdocs/Djinn/app/View/Messages/message.ctp, line 3]
+2012-08-26 09:51:49 Error: [FatalErrorException] syntax error, unexpected ')'
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 3, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 3, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-26 10:09:56 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('INSERT INTO `dj...', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1009): DboSource->execute('INSERT INTO `dj...')
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(1730): DboSource->create(Object(MessageUser), Array, Array)
+#4 /Applications/MAMP/htdocs/Djinn/app/Controller/MessagesController.php(19): Model->save(Array)
+#5 [internal function]: MessagesController->message('22')
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#7 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#9 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-08-26 10:11:37 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('INSERT INTO `dj...', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1009): DboSource->execute('INSERT INTO `dj...')
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(1730): DboSource->create(Object(MessageUser), Array, Array)
+#4 /Applications/MAMP/htdocs/Djinn/app/Controller/MessagesController.php(20): Model->save(Array)
+#5 [internal function]: MessagesController->message('22')
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#7 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#9 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-08-26 10:12:16 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('INSERT INTO `dj...', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1009): DboSource->execute('INSERT INTO `dj...')
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(1730): DboSource->create(Object(MessageUser), Array, Array)
+#4 /Applications/MAMP/htdocs/Djinn/app/Controller/MessagesController.php(20): Model->save(Array)
+#5 [internal function]: MessagesController->message('22')
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#7 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#9 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-08-26 10:12:50 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('INSERT INTO `dj...', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1009): DboSource->execute('INSERT INTO `dj...')
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(1730): DboSource->create(Object(MessageUser), Array, Array)
+#4 /Applications/MAMP/htdocs/Djinn/app/Controller/MessagesController.php(20): Model->save(Array)
+#5 [internal function]: MessagesController->message('22')
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#7 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#9 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-08-26 10:15:32 Error: Fatal Error (1): Call to undefined method MessagesController::Messagefind() in [/Applications/MAMP/htdocs/Djinn/app/Controller/MessagesController.php, line 13]
+2012-08-26 10:15:32 Error: [FatalErrorException] Call to undefined method MessagesController::Messagefind()
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/M...', 13)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/M...', 13, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/M...', 13, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-26 10:31:50 Error: Fatal Error (1): Call to undefined method MessagesController::User() in [/Applications/MAMP/htdocs/Djinn/app/Controller/MessagesController.php, line 14]
+2012-08-26 10:31:50 Error: [FatalErrorException] Call to undefined method MessagesController::User()
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/M...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/M...', 14, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/M...', 14, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-26 10:32:05 Error: Fatal Error (1): Call to undefined method SessionComponent::User() in [/Applications/MAMP/htdocs/Djinn/app/Controller/MessagesController.php, line 14]
+2012-08-26 10:32:05 Error: [FatalErrorException] Call to undefined method SessionComponent::User()
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/M...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/M...', 14, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/M...', 14, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-26 10:33:29 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/HelperCollection.php(62): HelperCollection->load('Auth')
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(812): HelperCollection->__isset('Auth')
+#2 /Applications/MAMP/htdocs/Djinn/app/View/Messages/message.ctp(4): View->__get('Auth')
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(920): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(883): View->_evaluate('/Applications/M...', Array)
+#5 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(475): View->_render('/Applications/M...')
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#7 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#9 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-08-26 10:35:22 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/HelperCollection.php(62): HelperCollection->load('Auth')
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(812): HelperCollection->__isset('Auth')
+#2 /Applications/MAMP/htdocs/Djinn/app/View/Messages/message.ctp(4): View->__get('Auth')
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(920): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(883): View->_evaluate('/Applications/M...', Array)
+#5 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(475): View->_render('/Applications/M...')
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#7 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#9 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-08-26 10:56:31 Error: [MissingTableException] Table first_users for model FirstUser was not found in datasource default.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(3180): Model->setSource('first_users')
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1068): Model->getDataSource()
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(2631): DboSource->read(Object(MessageUser), Array)
+#3 /Applications/MAMP/htdocs/Djinn/app/Controller/MessagesController.php(13): Model->find('all')
+#4 [internal function]: MessagesController->message('22')
+#5 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#7 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#8 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2012-08-26 10:57:17 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in [/Applications/MAMP/htdocs/Djinn/app/Model/MessageUser.php, line 16]
+2012-08-26 10:57:17 Error: [FatalErrorException] syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')'
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 16, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 16, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-26 11:03:00 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-26 11:14:15 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-26 11:14:26 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-26 11:18:37 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-26 11:19:56 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-26 11:32:09 Error: Fatal Error (1): Function name must be a string in [/Applications/MAMP/htdocs/Djinn/app/Controller/MessagesController.php, line 15]
+2012-08-26 11:32:09 Error: [FatalErrorException] Function name must be a string
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Function name m...', '/Applications/M...', 15)
+#1 [internal function]: ErrorHandler::handleError(1, 'Function name m...', '/Applications/M...', 15, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Function name m...', '/Applications/M...', 15, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-26 11:37:18 Error: Fatal Error (1): Function name must be a string in [/Applications/MAMP/htdocs/Djinn/app/Controller/MessagesController.php, line 15]
+2012-08-26 11:37:18 Error: [FatalErrorException] Function name must be a string
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Function name m...', '/Applications/M...', 15)
+#1 [internal function]: ErrorHandler::handleError(1, 'Function name m...', '/Applications/M...', 15, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Function name m...', '/Applications/M...', 15, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-26 11:51:12 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-26 12:08:45 Error: [MissingHelperException] Helper class MessageHelper could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/HelperCollection.php(62): HelperCollection->load('Message')
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(812): HelperCollection->__isset('Message')
+#2 /Applications/MAMP/htdocs/Djinn/app/View/Messages/message.ctp(24): View->__get('Message')
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(920): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(883): View->_evaluate('/Applications/M...', Array)
+#5 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(475): View->_render('/Applications/M...')
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#7 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#9 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-08-26 12:09:00 Error: [MissingHelperException] Helper class MessageHelper could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/HelperCollection.php(62): HelperCollection->load('Message')
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(812): HelperCollection->__isset('Message')
+#2 /Applications/MAMP/htdocs/Djinn/app/View/Messages/message.ctp(24): View->__get('Message')
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(920): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(883): View->_evaluate('/Applications/M...', Array)
+#5 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(475): View->_render('/Applications/M...')
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#7 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#9 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-08-26 12:14:56 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'MessageUser.message_id' in 'on clause'
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Message...', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Message...', Array, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Message...', false)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(2631): DboSource->read(Object(MessageUser), Array)
+#5 /Applications/MAMP/htdocs/Djinn/app/Controller/MessagesController.php(13): Model->find('all')
+#6 [internal function]: MessagesController->message('22')
+#7 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-08-26 13:40:34 Error: [MissingHelperException] Helper class UserHelper could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/HelperCollection.php(62): HelperCollection->load('User')
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(812): HelperCollection->__isset('User')
+#2 /Applications/MAMP/htdocs/Djinn/app/View/Messages/message.ctp(22): View->__get('User')
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(920): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(883): View->_evaluate('/Applications/M...', Array)
+#5 /Applications/MAMP/htdocs/Djinn/lib/Cake/View/View.php(475): View->_render('/Applications/M...')
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#7 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#9 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-08-26 13:44:53 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in [/Applications/MAMP/htdocs/Djinn/app/Controller/MessagesController.php, line 13]
+2012-08-26 13:44:53 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting T_FUNCTION
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 13, Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 13, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-08-26 13:47:39 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('INSERT INTO `dj...', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1009): DboSource->execute('INSERT INTO `dj...')
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(1730): DboSource->create(Object(Message), Array, Array)
+#4 /Applications/MAMP/htdocs/Djinn/app/Controller/MessagesController.php(13): Model->save(Array)
+#5 [internal function]: MessagesController->message('22')
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#7 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#9 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-08-26 13:48:00 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('INSERT INTO `dj...', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1009): DboSource->execute('INSERT INTO `dj...')
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(1730): DboSource->create(Object(Message), Array, Array)
+#4 /Applications/MAMP/htdocs/Djinn/app/Controller/MessagesController.php(13): Model->save(Array)
+#5 [internal function]: MessagesController->message('22')
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#7 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#9 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-08-26 14:02:10 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'order' in 'where clause'
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Message...', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Message...', Array, Array)
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Message...', false)
+#4 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(2631): DboSource->read(Object(Message), Array)
+#5 /Applications/MAMP/htdocs/Djinn/app/Controller/MessagesController.php(8): Model->find('all', Array)
+#6 [internal function]: MessagesController->index()
+#7 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-08-26 20:42:06 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-26 20:42:06 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-26 20:56:22 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null
+#0 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('INSERT INTO `dj...', Array)
+#2 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Datasource/DboSource.php(1009): DboSource->execute('INSERT INTO `dj...')
+#3 /Applications/MAMP/htdocs/Djinn/lib/Cake/Model/Model.php(1730): DboSource->create(Object(Message), Array, Array)
+#4 /Applications/MAMP/htdocs/Djinn/app/Controller/MessagesController.php(22): Model->save(Array)
+#5 [internal function]: MessagesController->message('19')
+#6 /Applications/MAMP/htdocs/Djinn/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#7 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/MAMP/htdocs/Djinn/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#9 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-08-27 07:48:04 Error: [MissingControllerException] Controller class <preClass=Controller could not be found.
+#0 /Applications/MAMP/htdocs/Djinn/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
